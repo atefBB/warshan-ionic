@@ -2,6 +2,7 @@
   "name": "warshan-ionic",
   "private": true,
   "version": "0.0.1",
+  "homepage": "https://atefbb.github.io/warshan-ionic/",
   "type": "module",
   "scripts": {
     "dev": "vite",
