@@ -1,5 +1,11 @@
 import { useEffect, useState } from "react";
-import { IonImg } from "@ionic/react";
+import {
+  IonFooter,
+  IonHeader,
+  IonImg,
+  IonTitle,
+  IonToolbar,
+} from "@ionic/react";
 import { useSwipeable } from "react-swipeable";
 
 import { Search } from "./Search";
@@ -12,10 +18,7 @@ export default function Page() {
   const lastOpenedPage = localStorage.getItem("currentPage") || 0;
 
   const [currentPage, setCurrentPage] = useState(Number(lastOpenedPage));
-
-  useEffect(() => {
-    localStorage.setItem("currentPage", String(currentPage));
-  }, [currentPage]);
+  const [showToolbar, setShowToolbar] = useState(false);
 
   function goToNextPage() {
     if (currentPage < pages.length - 1) {
@@ -32,13 +35,41 @@ export default function Page() {
   const handlers = useSwipeable({
     onSwipedLeft: goToPreviousPage,
     onSwipedRight: goToNextPage,
+    onSwipedUp: (eventData) => {
+      // @ts-ignore
+      if (eventData.event.changedTouches[0].clientY > window.innerHeight - 50) {
+        setShowToolbar((prevState) => !prevState);
+        setTimeout(() => {
+          setShowToolbar((prevState) => !prevState);
+        }, 3000); // hide after 3 seconds
+      }
+    },
+    onSwipedDown: (eventData) => {
+      // @ts-ignore
+      if (eventData.event.changedTouches[0].clientY > window.innerHeight - 50) {
+        setShowToolbar((prevState) => !prevState);
+        setTimeout(() => {
+          setShowToolbar((prevState) => !prevState);
+        }, 3000); // hide after 3 seconds
+      }
+    },
   });
+
+  useEffect(() => {
+    localStorage.setItem("currentPage", String(currentPage));
+  }, [currentPage]);
 
   return pages.length > 0 ? (
     <div className="container" {...handlers}>
-      <header className="search-wrapper__clz">
-        <Search />
-      </header>
+      {showToolbar === true ? (
+        <IonHeader>
+          <IonToolbar>
+            <IonTitle size="large">
+              <Search />
+            </IonTitle>
+          </IonToolbar>
+        </IonHeader>
+      ) : null}
       <section className="content">
         <IonImg
           src={pages[currentPage].imageUrl}
@@ -46,7 +77,13 @@ export default function Page() {
           style={{ width: "100%", height: "100%", objectFit: "fill" }}
         />
       </section>
-      <footer className="page-info__clz"></footer>
+      {showToolbar === true ? (
+        <IonFooter>
+          <IonToolbar>
+            <IonTitle>Footer Toolbar</IonTitle>
+          </IonToolbar>
+        </IonFooter>
+      ) : null}
     </div>
   ) : null;
 }
