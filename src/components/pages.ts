@@ -1,2446 +1,2434 @@
 export const pages = [
   {
-    imageUrl: "./pages-warsh/1.png",
-    text: "page 1",
-  },
-  {
-    imageUrl: "./pages-warsh/2.png",
-    text: "page 2",
-  },
-  {
-    imageUrl: "./pages-warsh/3.png",
-    text: "page 3",
-  },
-  {
-    imageUrl: "./pages-warsh/10.png",
+    imageUrl: "./warsh-asbahani/10.png",
     text: "page 10",
   },
   {
-    imageUrl: "./pages-warsh/100.png",
+    imageUrl: "./warsh-asbahani/100.png",
     text: "page 100",
   },
   {
-    imageUrl: "./pages-warsh/101.png",
+    imageUrl: "./warsh-asbahani/101.png",
     text: "page 101",
   },
   {
-    imageUrl: "./pages-warsh/102.png",
+    imageUrl: "./warsh-asbahani/102.png",
     text: "page 102",
   },
   {
-    imageUrl: "./pages-warsh/103.png",
+    imageUrl: "./warsh-asbahani/103.png",
     text: "page 103",
   },
   {
-    imageUrl: "./pages-warsh/104.png",
+    imageUrl: "./warsh-asbahani/104.png",
     text: "page 104",
   },
   {
-    imageUrl: "./pages-warsh/105.png",
+    imageUrl: "./warsh-asbahani/105.png",
     text: "page 105",
   },
   {
-    imageUrl: "./pages-warsh/106.png",
+    imageUrl: "./warsh-asbahani/106.png",
     text: "page 106",
   },
   {
-    imageUrl: "./pages-warsh/107.png",
+    imageUrl: "./warsh-asbahani/107.png",
     text: "page 107",
   },
   {
-    imageUrl: "./pages-warsh/108.png",
+    imageUrl: "./warsh-asbahani/108.png",
     text: "page 108",
   },
   {
-    imageUrl: "./pages-warsh/109.png",
+    imageUrl: "./warsh-asbahani/109.png",
     text: "page 109",
   },
   {
-    imageUrl: "./pages-warsh/11.png",
+    imageUrl: "./warsh-asbahani/11.png",
     text: "page 11",
   },
   {
-    imageUrl: "./pages-warsh/110.png",
+    imageUrl: "./warsh-asbahani/110.png",
     text: "page 110",
   },
   {
-    imageUrl: "./pages-warsh/111.png",
+    imageUrl: "./warsh-asbahani/111.png",
     text: "page 111",
   },
   {
-    imageUrl: "./pages-warsh/112.png",
+    imageUrl: "./warsh-asbahani/112.png",
     text: "page 112",
   },
   {
-    imageUrl: "./pages-warsh/113.png",
+    imageUrl: "./warsh-asbahani/113.png",
     text: "page 113",
   },
   {
-    imageUrl: "./pages-warsh/114.png",
+    imageUrl: "./warsh-asbahani/114.png",
     text: "page 114",
   },
   {
-    imageUrl: "./pages-warsh/115.png",
+    imageUrl: "./warsh-asbahani/115.png",
     text: "page 115",
   },
   {
-    imageUrl: "./pages-warsh/116.png",
+    imageUrl: "./warsh-asbahani/116.png",
     text: "page 116",
   },
   {
-    imageUrl: "./pages-warsh/117.png",
+    imageUrl: "./warsh-asbahani/117.png",
     text: "page 117",
   },
   {
-    imageUrl: "./pages-warsh/118.png",
+    imageUrl: "./warsh-asbahani/118.png",
     text: "page 118",
   },
   {
-    imageUrl: "./pages-warsh/119.png",
+    imageUrl: "./warsh-asbahani/119.png",
     text: "page 119",
   },
   {
-    imageUrl: "./pages-warsh/12.png",
+    imageUrl: "./warsh-asbahani/12.png",
     text: "page 12",
   },
   {
-    imageUrl: "./pages-warsh/120.png",
+    imageUrl: "./warsh-asbahani/120.png",
     text: "page 120",
   },
   {
-    imageUrl: "./pages-warsh/121.png",
+    imageUrl: "./warsh-asbahani/121.png",
     text: "page 121",
   },
   {
-    imageUrl: "./pages-warsh/122.png",
+    imageUrl: "./warsh-asbahani/122.png",
     text: "page 122",
   },
   {
-    imageUrl: "./pages-warsh/123.png",
+    imageUrl: "./warsh-asbahani/123.png",
     text: "page 123",
   },
   {
-    imageUrl: "./pages-warsh/124.png",
+    imageUrl: "./warsh-asbahani/124.png",
     text: "page 124",
   },
   {
-    imageUrl: "./pages-warsh/125.png",
+    imageUrl: "./warsh-asbahani/125.png",
     text: "page 125",
   },
   {
-    imageUrl: "./pages-warsh/126.png",
+    imageUrl: "./warsh-asbahani/126.png",
     text: "page 126",
   },
   {
-    imageUrl: "./pages-warsh/127.png",
+    imageUrl: "./warsh-asbahani/127.png",
     text: "page 127",
   },
   {
-    imageUrl: "./pages-warsh/128.png",
+    imageUrl: "./warsh-asbahani/128.png",
     text: "page 128",
   },
   {
-    imageUrl: "./pages-warsh/129.png",
+    imageUrl: "./warsh-asbahani/129.png",
     text: "page 129",
   },
   {
-    imageUrl: "./pages-warsh/13.png",
+    imageUrl: "./warsh-asbahani/13.png",
     text: "page 13",
   },
   {
-    imageUrl: "./pages-warsh/130.png",
+    imageUrl: "./warsh-asbahani/130.png",
     text: "page 130",
   },
   {
-    imageUrl: "./pages-warsh/131.png",
+    imageUrl: "./warsh-asbahani/131.png",
     text: "page 131",
   },
   {
-    imageUrl: "./pages-warsh/132.png",
+    imageUrl: "./warsh-asbahani/132.png",
     text: "page 132",
   },
   {
-    imageUrl: "./pages-warsh/133.png",
+    imageUrl: "./warsh-asbahani/133.png",
     text: "page 133",
   },
   {
-    imageUrl: "./pages-warsh/134.png",
+    imageUrl: "./warsh-asbahani/134.png",
     text: "page 134",
   },
   {
-    imageUrl: "./pages-warsh/135.png",
+    imageUrl: "./warsh-asbahani/135.png",
     text: "page 135",
   },
   {
-    imageUrl: "./pages-warsh/136.png",
+    imageUrl: "./warsh-asbahani/136.png",
     text: "page 136",
   },
   {
-    imageUrl: "./pages-warsh/137.png",
+    imageUrl: "./warsh-asbahani/137.png",
     text: "page 137",
   },
   {
-    imageUrl: "./pages-warsh/138.png",
+    imageUrl: "./warsh-asbahani/138.png",
     text: "page 138",
   },
   {
-    imageUrl: "./pages-warsh/139.png",
+    imageUrl: "./warsh-asbahani/139.png",
     text: "page 139",
   },
   {
-    imageUrl: "./pages-warsh/14.png",
+    imageUrl: "./warsh-asbahani/14.png",
     text: "page 14",
   },
   {
-    imageUrl: "./pages-warsh/140.png",
+    imageUrl: "./warsh-asbahani/140.png",
     text: "page 140",
   },
   {
-    imageUrl: "./pages-warsh/141.png",
+    imageUrl: "./warsh-asbahani/141.png",
     text: "page 141",
   },
   {
-    imageUrl: "./pages-warsh/142.png",
+    imageUrl: "./warsh-asbahani/142.png",
     text: "page 142",
   },
   {
-    imageUrl: "./pages-warsh/143.png",
+    imageUrl: "./warsh-asbahani/143.png",
     text: "page 143",
   },
   {
-    imageUrl: "./pages-warsh/144.png",
+    imageUrl: "./warsh-asbahani/144.png",
     text: "page 144",
   },
   {
-    imageUrl: "./pages-warsh/145.png",
+    imageUrl: "./warsh-asbahani/145.png",
     text: "page 145",
   },
   {
-    imageUrl: "./pages-warsh/146.png",
+    imageUrl: "./warsh-asbahani/146.png",
     text: "page 146",
   },
   {
-    imageUrl: "./pages-warsh/147.png",
+    imageUrl: "./warsh-asbahani/147.png",
     text: "page 147",
   },
   {
-    imageUrl: "./pages-warsh/148.png",
+    imageUrl: "./warsh-asbahani/148.png",
     text: "page 148",
   },
   {
-    imageUrl: "./pages-warsh/149.png",
+    imageUrl: "./warsh-asbahani/149.png",
     text: "page 149",
   },
   {
-    imageUrl: "./pages-warsh/15.png",
+    imageUrl: "./warsh-asbahani/15.png",
     text: "page 15",
   },
   {
-    imageUrl: "./pages-warsh/150.png",
+    imageUrl: "./warsh-asbahani/150.png",
     text: "page 150",
   },
   {
-    imageUrl: "./pages-warsh/151.png",
+    imageUrl: "./warsh-asbahani/151.png",
     text: "page 151",
   },
   {
-    imageUrl: "./pages-warsh/152.png",
+    imageUrl: "./warsh-asbahani/152.png",
     text: "page 152",
   },
   {
-    imageUrl: "./pages-warsh/153.png",
+    imageUrl: "./warsh-asbahani/153.png",
     text: "page 153",
   },
   {
-    imageUrl: "./pages-warsh/154.png",
+    imageUrl: "./warsh-asbahani/154.png",
     text: "page 154",
   },
   {
-    imageUrl: "./pages-warsh/155.png",
+    imageUrl: "./warsh-asbahani/155.png",
     text: "page 155",
   },
   {
-    imageUrl: "./pages-warsh/156.png",
+    imageUrl: "./warsh-asbahani/156.png",
     text: "page 156",
   },
   {
-    imageUrl: "./pages-warsh/157.png",
+    imageUrl: "./warsh-asbahani/157.png",
     text: "page 157",
   },
   {
-    imageUrl: "./pages-warsh/158.png",
+    imageUrl: "./warsh-asbahani/158.png",
     text: "page 158",
   },
   {
-    imageUrl: "./pages-warsh/159.png",
+    imageUrl: "./warsh-asbahani/159.png",
     text: "page 159",
   },
   {
-    imageUrl: "./pages-warsh/16.png",
+    imageUrl: "./warsh-asbahani/16.png",
     text: "page 16",
   },
   {
-    imageUrl: "./pages-warsh/160.png",
+    imageUrl: "./warsh-asbahani/160.png",
     text: "page 160",
   },
   {
-    imageUrl: "./pages-warsh/161.png",
+    imageUrl: "./warsh-asbahani/161.png",
     text: "page 161",
   },
   {
-    imageUrl: "./pages-warsh/162.png",
+    imageUrl: "./warsh-asbahani/162.png",
     text: "page 162",
   },
   {
-    imageUrl: "./pages-warsh/163.png",
+    imageUrl: "./warsh-asbahani/163.png",
     text: "page 163",
   },
   {
-    imageUrl: "./pages-warsh/164.png",
+    imageUrl: "./warsh-asbahani/164.png",
     text: "page 164",
   },
   {
-    imageUrl: "./pages-warsh/165.png",
+    imageUrl: "./warsh-asbahani/165.png",
     text: "page 165",
   },
   {
-    imageUrl: "./pages-warsh/166.png",
+    imageUrl: "./warsh-asbahani/166.png",
     text: "page 166",
   },
   {
-    imageUrl: "./pages-warsh/167.png",
+    imageUrl: "./warsh-asbahani/167.png",
     text: "page 167",
   },
   {
-    imageUrl: "./pages-warsh/168.png",
+    imageUrl: "./warsh-asbahani/168.png",
     text: "page 168",
   },
   {
-    imageUrl: "./pages-warsh/169.png",
+    imageUrl: "./warsh-asbahani/169.png",
     text: "page 169",
   },
   {
-    imageUrl: "./pages-warsh/17.png",
+    imageUrl: "./warsh-asbahani/17.png",
     text: "page 17",
   },
   {
-    imageUrl: "./pages-warsh/170.png",
+    imageUrl: "./warsh-asbahani/170.png",
     text: "page 170",
   },
   {
-    imageUrl: "./pages-warsh/171.png",
+    imageUrl: "./warsh-asbahani/171.png",
     text: "page 171",
   },
   {
-    imageUrl: "./pages-warsh/172.png",
+    imageUrl: "./warsh-asbahani/172.png",
     text: "page 172",
   },
   {
-    imageUrl: "./pages-warsh/173.png",
+    imageUrl: "./warsh-asbahani/173.png",
     text: "page 173",
   },
   {
-    imageUrl: "./pages-warsh/174.png",
+    imageUrl: "./warsh-asbahani/174.png",
     text: "page 174",
   },
   {
-    imageUrl: "./pages-warsh/175.png",
+    imageUrl: "./warsh-asbahani/175.png",
     text: "page 175",
   },
   {
-    imageUrl: "./pages-warsh/176.png",
+    imageUrl: "./warsh-asbahani/176.png",
     text: "page 176",
   },
   {
-    imageUrl: "./pages-warsh/177.png",
+    imageUrl: "./warsh-asbahani/177.png",
     text: "page 177",
   },
   {
-    imageUrl: "./pages-warsh/178.png",
+    imageUrl: "./warsh-asbahani/178.png",
     text: "page 178",
   },
   {
-    imageUrl: "./pages-warsh/179.png",
+    imageUrl: "./warsh-asbahani/179.png",
     text: "page 179",
   },
   {
-    imageUrl: "./pages-warsh/18.png",
+    imageUrl: "./warsh-asbahani/18.png",
     text: "page 18",
   },
   {
-    imageUrl: "./pages-warsh/180.png",
+    imageUrl: "./warsh-asbahani/180.png",
     text: "page 180",
   },
   {
-    imageUrl: "./pages-warsh/181.png",
+    imageUrl: "./warsh-asbahani/181.png",
     text: "page 181",
   },
   {
-    imageUrl: "./pages-warsh/182.png",
+    imageUrl: "./warsh-asbahani/182.png",
     text: "page 182",
   },
   {
-    imageUrl: "./pages-warsh/183.png",
+    imageUrl: "./warsh-asbahani/183.png",
     text: "page 183",
   },
   {
-    imageUrl: "./pages-warsh/184.png",
+    imageUrl: "./warsh-asbahani/184.png",
     text: "page 184",
   },
   {
-    imageUrl: "./pages-warsh/185.png",
+    imageUrl: "./warsh-asbahani/185.png",
     text: "page 185",
   },
   {
-    imageUrl: "./pages-warsh/186.png",
+    imageUrl: "./warsh-asbahani/186.png",
     text: "page 186",
   },
   {
-    imageUrl: "./pages-warsh/187.png",
+    imageUrl: "./warsh-asbahani/187.png",
     text: "page 187",
   },
   {
-    imageUrl: "./pages-warsh/188.png",
+    imageUrl: "./warsh-asbahani/188.png",
     text: "page 188",
   },
   {
-    imageUrl: "./pages-warsh/189.png",
+    imageUrl: "./warsh-asbahani/189.png",
     text: "page 189",
   },
   {
-    imageUrl: "./pages-warsh/19.png",
+    imageUrl: "./warsh-asbahani/19.png",
     text: "page 19",
   },
   {
-    imageUrl: "./pages-warsh/190.png",
+    imageUrl: "./warsh-asbahani/190.png",
     text: "page 190",
   },
   {
-    imageUrl: "./pages-warsh/191.png",
+    imageUrl: "./warsh-asbahani/191.png",
     text: "page 191",
   },
   {
-    imageUrl: "./pages-warsh/192.png",
+    imageUrl: "./warsh-asbahani/192.png",
     text: "page 192",
   },
   {
-    imageUrl: "./pages-warsh/193.png",
+    imageUrl: "./warsh-asbahani/193.png",
     text: "page 193",
   },
   {
-    imageUrl: "./pages-warsh/194.png",
+    imageUrl: "./warsh-asbahani/194.png",
     text: "page 194",
   },
   {
-    imageUrl: "./pages-warsh/195.png",
+    imageUrl: "./warsh-asbahani/195.png",
     text: "page 195",
   },
   {
-    imageUrl: "./pages-warsh/196.png",
+    imageUrl: "./warsh-asbahani/196.png",
     text: "page 196",
   },
   {
-    imageUrl: "./pages-warsh/197.png",
+    imageUrl: "./warsh-asbahani/197.png",
     text: "page 197",
   },
   {
-    imageUrl: "./pages-warsh/198.png",
+    imageUrl: "./warsh-asbahani/198.png",
     text: "page 198",
   },
   {
-    imageUrl: "./pages-warsh/199.png",
+    imageUrl: "./warsh-asbahani/199.png",
     text: "page 199",
   },
   {
-    imageUrl: "./pages-warsh/20.png",
+    imageUrl: "./warsh-asbahani/20.png",
     text: "page 20",
   },
   {
-    imageUrl: "./pages-warsh/200.png",
+    imageUrl: "./warsh-asbahani/200.png",
     text: "page 200",
   },
   {
-    imageUrl: "./pages-warsh/201.png",
+    imageUrl: "./warsh-asbahani/201.png",
     text: "page 201",
   },
   {
-    imageUrl: "./pages-warsh/202.png",
+    imageUrl: "./warsh-asbahani/202.png",
     text: "page 202",
   },
   {
-    imageUrl: "./pages-warsh/203.png",
+    imageUrl: "./warsh-asbahani/203.png",
     text: "page 203",
   },
   {
-    imageUrl: "./pages-warsh/204.png",
+    imageUrl: "./warsh-asbahani/204.png",
     text: "page 204",
   },
   {
-    imageUrl: "./pages-warsh/205.png",
+    imageUrl: "./warsh-asbahani/205.png",
     text: "page 205",
   },
   {
-    imageUrl: "./pages-warsh/206.png",
+    imageUrl: "./warsh-asbahani/206.png",
     text: "page 206",
   },
   {
-    imageUrl: "./pages-warsh/207.png",
+    imageUrl: "./warsh-asbahani/207.png",
     text: "page 207",
   },
   {
-    imageUrl: "./pages-warsh/208.png",
+    imageUrl: "./warsh-asbahani/208.png",
     text: "page 208",
   },
   {
-    imageUrl: "./pages-warsh/209.png",
+    imageUrl: "./warsh-asbahani/209.png",
     text: "page 209",
   },
   {
-    imageUrl: "./pages-warsh/21.png",
+    imageUrl: "./warsh-asbahani/21.png",
     text: "page 21",
   },
   {
-    imageUrl: "./pages-warsh/210.png",
+    imageUrl: "./warsh-asbahani/210.png",
     text: "page 210",
   },
   {
-    imageUrl: "./pages-warsh/211.png",
+    imageUrl: "./warsh-asbahani/211.png",
     text: "page 211",
   },
   {
-    imageUrl: "./pages-warsh/212.png",
+    imageUrl: "./warsh-asbahani/212.png",
     text: "page 212",
   },
   {
-    imageUrl: "./pages-warsh/213.png",
+    imageUrl: "./warsh-asbahani/213.png",
     text: "page 213",
   },
   {
-    imageUrl: "./pages-warsh/214.png",
+    imageUrl: "./warsh-asbahani/214.png",
     text: "page 214",
   },
   {
-    imageUrl: "./pages-warsh/215.png",
+    imageUrl: "./warsh-asbahani/215.png",
     text: "page 215",
   },
   {
-    imageUrl: "./pages-warsh/216.png",
+    imageUrl: "./warsh-asbahani/216.png",
     text: "page 216",
   },
   {
-    imageUrl: "./pages-warsh/217.png",
+    imageUrl: "./warsh-asbahani/217.png",
     text: "page 217",
   },
   {
-    imageUrl: "./pages-warsh/218.png",
+    imageUrl: "./warsh-asbahani/218.png",
     text: "page 218",
   },
   {
-    imageUrl: "./pages-warsh/219.png",
+    imageUrl: "./warsh-asbahani/219.png",
     text: "page 219",
   },
   {
-    imageUrl: "./pages-warsh/22.png",
+    imageUrl: "./warsh-asbahani/22.png",
     text: "page 22",
   },
   {
-    imageUrl: "./pages-warsh/220.png",
+    imageUrl: "./warsh-asbahani/220.png",
     text: "page 220",
   },
   {
-    imageUrl: "./pages-warsh/221.png",
+    imageUrl: "./warsh-asbahani/221.png",
     text: "page 221",
   },
   {
-    imageUrl: "./pages-warsh/222.png",
+    imageUrl: "./warsh-asbahani/222.png",
     text: "page 222",
   },
   {
-    imageUrl: "./pages-warsh/223.png",
+    imageUrl: "./warsh-asbahani/223.png",
     text: "page 223",
   },
   {
-    imageUrl: "./pages-warsh/224.png",
+    imageUrl: "./warsh-asbahani/224.png",
     text: "page 224",
   },
   {
-    imageUrl: "./pages-warsh/225.png",
+    imageUrl: "./warsh-asbahani/225.png",
     text: "page 225",
   },
   {
-    imageUrl: "./pages-warsh/226.png",
+    imageUrl: "./warsh-asbahani/226.png",
     text: "page 226",
   },
   {
-    imageUrl: "./pages-warsh/227.png",
+    imageUrl: "./warsh-asbahani/227.png",
     text: "page 227",
   },
   {
-    imageUrl: "./pages-warsh/228.png",
+    imageUrl: "./warsh-asbahani/228.png",
     text: "page 228",
   },
   {
-    imageUrl: "./pages-warsh/229.png",
+    imageUrl: "./warsh-asbahani/229.png",
     text: "page 229",
   },
   {
-    imageUrl: "./pages-warsh/23.png",
+    imageUrl: "./warsh-asbahani/23.png",
     text: "page 23",
   },
   {
-    imageUrl: "./pages-warsh/230.png",
+    imageUrl: "./warsh-asbahani/230.png",
     text: "page 230",
   },
   {
-    imageUrl: "./pages-warsh/231.png",
+    imageUrl: "./warsh-asbahani/231.png",
     text: "page 231",
   },
   {
-    imageUrl: "./pages-warsh/232.png",
+    imageUrl: "./warsh-asbahani/232.png",
     text: "page 232",
   },
   {
-    imageUrl: "./pages-warsh/233.png",
+    imageUrl: "./warsh-asbahani/233.png",
     text: "page 233",
   },
   {
-    imageUrl: "./pages-warsh/234.png",
+    imageUrl: "./warsh-asbahani/234.png",
     text: "page 234",
   },
   {
-    imageUrl: "./pages-warsh/235.png",
+    imageUrl: "./warsh-asbahani/235.png",
     text: "page 235",
   },
   {
-    imageUrl: "./pages-warsh/236.png",
+    imageUrl: "./warsh-asbahani/236.png",
     text: "page 236",
   },
   {
-    imageUrl: "./pages-warsh/237.png",
+    imageUrl: "./warsh-asbahani/237.png",
     text: "page 237",
   },
   {
-    imageUrl: "./pages-warsh/238.png",
+    imageUrl: "./warsh-asbahani/238.png",
     text: "page 238",
   },
   {
-    imageUrl: "./pages-warsh/239.png",
+    imageUrl: "./warsh-asbahani/239.png",
     text: "page 239",
   },
   {
-    imageUrl: "./pages-warsh/24.png",
+    imageUrl: "./warsh-asbahani/24.png",
     text: "page 24",
   },
   {
-    imageUrl: "./pages-warsh/240.png",
+    imageUrl: "./warsh-asbahani/240.png",
     text: "page 240",
   },
   {
-    imageUrl: "./pages-warsh/241.png",
+    imageUrl: "./warsh-asbahani/241.png",
     text: "page 241",
   },
   {
-    imageUrl: "./pages-warsh/242.png",
+    imageUrl: "./warsh-asbahani/242.png",
     text: "page 242",
   },
   {
-    imageUrl: "./pages-warsh/243.png",
+    imageUrl: "./warsh-asbahani/243.png",
     text: "page 243",
   },
   {
-    imageUrl: "./pages-warsh/244.png",
+    imageUrl: "./warsh-asbahani/244.png",
     text: "page 244",
   },
   {
-    imageUrl: "./pages-warsh/245.png",
+    imageUrl: "./warsh-asbahani/245.png",
     text: "page 245",
   },
   {
-    imageUrl: "./pages-warsh/246.png",
+    imageUrl: "./warsh-asbahani/246.png",
     text: "page 246",
   },
   {
-    imageUrl: "./pages-warsh/247.png",
+    imageUrl: "./warsh-asbahani/247.png",
     text: "page 247",
   },
   {
-    imageUrl: "./pages-warsh/248.png",
+    imageUrl: "./warsh-asbahani/248.png",
     text: "page 248",
   },
   {
-    imageUrl: "./pages-warsh/249.png",
+    imageUrl: "./warsh-asbahani/249.png",
     text: "page 249",
   },
   {
-    imageUrl: "./pages-warsh/25.png",
+    imageUrl: "./warsh-asbahani/25.png",
     text: "page 25",
   },
   {
-    imageUrl: "./pages-warsh/250.png",
+    imageUrl: "./warsh-asbahani/250.png",
     text: "page 250",
   },
   {
-    imageUrl: "./pages-warsh/251.png",
+    imageUrl: "./warsh-asbahani/251.png",
     text: "page 251",
   },
   {
-    imageUrl: "./pages-warsh/252.png",
+    imageUrl: "./warsh-asbahani/252.png",
     text: "page 252",
   },
   {
-    imageUrl: "./pages-warsh/253.png",
+    imageUrl: "./warsh-asbahani/253.png",
     text: "page 253",
   },
   {
-    imageUrl: "./pages-warsh/254.png",
+    imageUrl: "./warsh-asbahani/254.png",
     text: "page 254",
   },
   {
-    imageUrl: "./pages-warsh/255.png",
+    imageUrl: "./warsh-asbahani/255.png",
     text: "page 255",
   },
   {
-    imageUrl: "./pages-warsh/256.png",
+    imageUrl: "./warsh-asbahani/256.png",
     text: "page 256",
   },
   {
-    imageUrl: "./pages-warsh/257.png",
+    imageUrl: "./warsh-asbahani/257.png",
     text: "page 257",
   },
   {
-    imageUrl: "./pages-warsh/258.png",
+    imageUrl: "./warsh-asbahani/258.png",
     text: "page 258",
   },
   {
-    imageUrl: "./pages-warsh/259.png",
+    imageUrl: "./warsh-asbahani/259.png",
     text: "page 259",
   },
   {
-    imageUrl: "./pages-warsh/26.png",
+    imageUrl: "./warsh-asbahani/26.png",
     text: "page 26",
   },
   {
-    imageUrl: "./pages-warsh/260.png",
+    imageUrl: "./warsh-asbahani/260.png",
     text: "page 260",
   },
   {
-    imageUrl: "./pages-warsh/261.png",
+    imageUrl: "./warsh-asbahani/261.png",
     text: "page 261",
   },
   {
-    imageUrl: "./pages-warsh/262.png",
+    imageUrl: "./warsh-asbahani/262.png",
     text: "page 262",
   },
   {
-    imageUrl: "./pages-warsh/263.png",
+    imageUrl: "./warsh-asbahani/263.png",
     text: "page 263",
   },
   {
-    imageUrl: "./pages-warsh/264.png",
+    imageUrl: "./warsh-asbahani/264.png",
     text: "page 264",
   },
   {
-    imageUrl: "./pages-warsh/265.png",
+    imageUrl: "./warsh-asbahani/265.png",
     text: "page 265",
   },
   {
-    imageUrl: "./pages-warsh/266.png",
+    imageUrl: "./warsh-asbahani/266.png",
     text: "page 266",
   },
   {
-    imageUrl: "./pages-warsh/267.png",
+    imageUrl: "./warsh-asbahani/267.png",
     text: "page 267",
   },
   {
-    imageUrl: "./pages-warsh/268.png",
+    imageUrl: "./warsh-asbahani/268.png",
     text: "page 268",
   },
   {
-    imageUrl: "./pages-warsh/269.png",
+    imageUrl: "./warsh-asbahani/269.png",
     text: "page 269",
   },
   {
-    imageUrl: "./pages-warsh/27.png",
+    imageUrl: "./warsh-asbahani/27.png",
     text: "page 27",
   },
   {
-    imageUrl: "./pages-warsh/270.png",
+    imageUrl: "./warsh-asbahani/270.png",
     text: "page 270",
   },
   {
-    imageUrl: "./pages-warsh/271.png",
+    imageUrl: "./warsh-asbahani/271.png",
     text: "page 271",
   },
   {
-    imageUrl: "./pages-warsh/272.png",
+    imageUrl: "./warsh-asbahani/272.png",
     text: "page 272",
   },
   {
-    imageUrl: "./pages-warsh/273.png",
+    imageUrl: "./warsh-asbahani/273.png",
     text: "page 273",
   },
   {
-    imageUrl: "./pages-warsh/274.png",
+    imageUrl: "./warsh-asbahani/274.png",
     text: "page 274",
   },
   {
-    imageUrl: "./pages-warsh/275.png",
+    imageUrl: "./warsh-asbahani/275.png",
     text: "page 275",
   },
   {
-    imageUrl: "./pages-warsh/276.png",
+    imageUrl: "./warsh-asbahani/276.png",
     text: "page 276",
   },
   {
-    imageUrl: "./pages-warsh/277.png",
+    imageUrl: "./warsh-asbahani/277.png",
     text: "page 277",
   },
   {
-    imageUrl: "./pages-warsh/278.png",
+    imageUrl: "./warsh-asbahani/278.png",
     text: "page 278",
   },
   {
-    imageUrl: "./pages-warsh/279.png",
+    imageUrl: "./warsh-asbahani/279.png",
     text: "page 279",
   },
   {
-    imageUrl: "./pages-warsh/28.png",
+    imageUrl: "./warsh-asbahani/28.png",
     text: "page 28",
   },
   {
-    imageUrl: "./pages-warsh/280.png",
+    imageUrl: "./warsh-asbahani/280.png",
     text: "page 280",
   },
   {
-    imageUrl: "./pages-warsh/281.png",
+    imageUrl: "./warsh-asbahani/281.png",
     text: "page 281",
   },
   {
-    imageUrl: "./pages-warsh/282.png",
+    imageUrl: "./warsh-asbahani/282.png",
     text: "page 282",
   },
   {
-    imageUrl: "./pages-warsh/283.png",
+    imageUrl: "./warsh-asbahani/283.png",
     text: "page 283",
   },
   {
-    imageUrl: "./pages-warsh/284.png",
+    imageUrl: "./warsh-asbahani/284.png",
     text: "page 284",
   },
   {
-    imageUrl: "./pages-warsh/285.png",
+    imageUrl: "./warsh-asbahani/285.png",
     text: "page 285",
   },
   {
-    imageUrl: "./pages-warsh/286.png",
+    imageUrl: "./warsh-asbahani/286.png",
     text: "page 286",
   },
   {
-    imageUrl: "./pages-warsh/287.png",
+    imageUrl: "./warsh-asbahani/287.png",
     text: "page 287",
   },
   {
-    imageUrl: "./pages-warsh/288.png",
+    imageUrl: "./warsh-asbahani/288.png",
     text: "page 288",
   },
   {
-    imageUrl: "./pages-warsh/289.png",
+    imageUrl: "./warsh-asbahani/289.png",
     text: "page 289",
   },
   {
-    imageUrl: "./pages-warsh/29.png",
+    imageUrl: "./warsh-asbahani/29.png",
     text: "page 29",
   },
   {
-    imageUrl: "./pages-warsh/290.png",
+    imageUrl: "./warsh-asbahani/290.png",
     text: "page 290",
   },
   {
-    imageUrl: "./pages-warsh/291.png",
+    imageUrl: "./warsh-asbahani/291.png",
     text: "page 291",
   },
   {
-    imageUrl: "./pages-warsh/292.png",
+    imageUrl: "./warsh-asbahani/292.png",
     text: "page 292",
   },
   {
-    imageUrl: "./pages-warsh/293.png",
+    imageUrl: "./warsh-asbahani/293.png",
     text: "page 293",
   },
   {
-    imageUrl: "./pages-warsh/294.png",
+    imageUrl: "./warsh-asbahani/294.png",
     text: "page 294",
   },
   {
-    imageUrl: "./pages-warsh/295.png",
+    imageUrl: "./warsh-asbahani/295.png",
     text: "page 295",
   },
   {
-    imageUrl: "./pages-warsh/296.png",
+    imageUrl: "./warsh-asbahani/296.png",
     text: "page 296",
   },
   {
-    imageUrl: "./pages-warsh/297.png",
+    imageUrl: "./warsh-asbahani/297.png",
     text: "page 297",
   },
   {
-    imageUrl: "./pages-warsh/298.png",
+    imageUrl: "./warsh-asbahani/298.png",
     text: "page 298",
   },
   {
-    imageUrl: "./pages-warsh/299.png",
+    imageUrl: "./warsh-asbahani/299.png",
     text: "page 299",
   },
   {
-    imageUrl: "./pages-warsh/30.png",
+    imageUrl: "./warsh-asbahani/30.png",
     text: "page 30",
   },
   {
-    imageUrl: "./pages-warsh/300.png",
+    imageUrl: "./warsh-asbahani/300.png",
     text: "page 300",
   },
   {
-    imageUrl: "./pages-warsh/301.png",
+    imageUrl: "./warsh-asbahani/301.png",
     text: "page 301",
   },
   {
-    imageUrl: "./pages-warsh/302.png",
+    imageUrl: "./warsh-asbahani/302.png",
     text: "page 302",
   },
   {
-    imageUrl: "./pages-warsh/303.png",
+    imageUrl: "./warsh-asbahani/303.png",
     text: "page 303",
   },
   {
-    imageUrl: "./pages-warsh/304.png",
+    imageUrl: "./warsh-asbahani/304.png",
     text: "page 304",
   },
   {
-    imageUrl: "./pages-warsh/305.png",
+    imageUrl: "./warsh-asbahani/305.png",
     text: "page 305",
   },
   {
-    imageUrl: "./pages-warsh/306.png",
+    imageUrl: "./warsh-asbahani/306.png",
     text: "page 306",
   },
   {
-    imageUrl: "./pages-warsh/307.png",
+    imageUrl: "./warsh-asbahani/307.png",
     text: "page 307",
   },
   {
-    imageUrl: "./pages-warsh/308.png",
+    imageUrl: "./warsh-asbahani/308.png",
     text: "page 308",
   },
   {
-    imageUrl: "./pages-warsh/309.png",
+    imageUrl: "./warsh-asbahani/309.png",
     text: "page 309",
   },
   {
-    imageUrl: "./pages-warsh/31.png",
+    imageUrl: "./warsh-asbahani/31.png",
     text: "page 31",
   },
   {
-    imageUrl: "./pages-warsh/310.png",
+    imageUrl: "./warsh-asbahani/310.png",
     text: "page 310",
   },
   {
-    imageUrl: "./pages-warsh/311.png",
+    imageUrl: "./warsh-asbahani/311.png",
     text: "page 311",
   },
   {
-    imageUrl: "./pages-warsh/312.png",
+    imageUrl: "./warsh-asbahani/312.png",
     text: "page 312",
   },
   {
-    imageUrl: "./pages-warsh/313.png",
+    imageUrl: "./warsh-asbahani/313.png",
     text: "page 313",
   },
   {
-    imageUrl: "./pages-warsh/314.png",
+    imageUrl: "./warsh-asbahani/314.png",
     text: "page 314",
   },
   {
-    imageUrl: "./pages-warsh/315.png",
+    imageUrl: "./warsh-asbahani/315.png",
     text: "page 315",
   },
   {
-    imageUrl: "./pages-warsh/316.png",
+    imageUrl: "./warsh-asbahani/316.png",
     text: "page 316",
   },
   {
-    imageUrl: "./pages-warsh/317.png",
+    imageUrl: "./warsh-asbahani/317.png",
     text: "page 317",
   },
   {
-    imageUrl: "./pages-warsh/318.png",
+    imageUrl: "./warsh-asbahani/318.png",
     text: "page 318",
   },
   {
-    imageUrl: "./pages-warsh/319.png",
+    imageUrl: "./warsh-asbahani/319.png",
     text: "page 319",
   },
   {
-    imageUrl: "./pages-warsh/32.png",
+    imageUrl: "./warsh-asbahani/32.png",
     text: "page 32",
   },
   {
-    imageUrl: "./pages-warsh/320.png",
+    imageUrl: "./warsh-asbahani/320.png",
     text: "page 320",
   },
   {
-    imageUrl: "./pages-warsh/321.png",
+    imageUrl: "./warsh-asbahani/321.png",
     text: "page 321",
   },
   {
-    imageUrl: "./pages-warsh/322.png",
+    imageUrl: "./warsh-asbahani/322.png",
     text: "page 322",
   },
   {
-    imageUrl: "./pages-warsh/323.png",
+    imageUrl: "./warsh-asbahani/323.png",
     text: "page 323",
   },
   {
-    imageUrl: "./pages-warsh/324.png",
+    imageUrl: "./warsh-asbahani/324.png",
     text: "page 324",
   },
   {
-    imageUrl: "./pages-warsh/325.png",
+    imageUrl: "./warsh-asbahani/325.png",
     text: "page 325",
   },
   {
-    imageUrl: "./pages-warsh/326.png",
+    imageUrl: "./warsh-asbahani/326.png",
     text: "page 326",
   },
   {
-    imageUrl: "./pages-warsh/327.png",
+    imageUrl: "./warsh-asbahani/327.png",
     text: "page 327",
   },
   {
-    imageUrl: "./pages-warsh/328.png",
+    imageUrl: "./warsh-asbahani/328.png",
     text: "page 328",
   },
   {
-    imageUrl: "./pages-warsh/329.png",
+    imageUrl: "./warsh-asbahani/329.png",
     text: "page 329",
   },
   {
-    imageUrl: "./pages-warsh/33.png",
+    imageUrl: "./warsh-asbahani/33.png",
     text: "page 33",
   },
   {
-    imageUrl: "./pages-warsh/330.png",
+    imageUrl: "./warsh-asbahani/330.png",
     text: "page 330",
   },
   {
-    imageUrl: "./pages-warsh/331.png",
+    imageUrl: "./warsh-asbahani/331.png",
     text: "page 331",
   },
   {
-    imageUrl: "./pages-warsh/332.png",
+    imageUrl: "./warsh-asbahani/332.png",
     text: "page 332",
   },
   {
-    imageUrl: "./pages-warsh/333.png",
+    imageUrl: "./warsh-asbahani/333.png",
     text: "page 333",
   },
   {
-    imageUrl: "./pages-warsh/334.png",
+    imageUrl: "./warsh-asbahani/334.png",
     text: "page 334",
   },
   {
-    imageUrl: "./pages-warsh/335.png",
+    imageUrl: "./warsh-asbahani/335.png",
     text: "page 335",
   },
   {
-    imageUrl: "./pages-warsh/336.png",
+    imageUrl: "./warsh-asbahani/336.png",
     text: "page 336",
   },
   {
-    imageUrl: "./pages-warsh/337.png",
+    imageUrl: "./warsh-asbahani/337.png",
     text: "page 337",
   },
   {
-    imageUrl: "./pages-warsh/338.png",
+    imageUrl: "./warsh-asbahani/338.png",
     text: "page 338",
   },
   {
-    imageUrl: "./pages-warsh/339.png",
+    imageUrl: "./warsh-asbahani/339.png",
     text: "page 339",
   },
   {
-    imageUrl: "./pages-warsh/34.png",
+    imageUrl: "./warsh-asbahani/34.png",
     text: "page 34",
   },
   {
-    imageUrl: "./pages-warsh/340.png",
+    imageUrl: "./warsh-asbahani/340.png",
     text: "page 340",
   },
   {
-    imageUrl: "./pages-warsh/341.png",
+    imageUrl: "./warsh-asbahani/341.png",
     text: "page 341",
   },
   {
-    imageUrl: "./pages-warsh/342.png",
+    imageUrl: "./warsh-asbahani/342.png",
     text: "page 342",
   },
   {
-    imageUrl: "./pages-warsh/343.png",
+    imageUrl: "./warsh-asbahani/343.png",
     text: "page 343",
   },
   {
-    imageUrl: "./pages-warsh/344.png",
+    imageUrl: "./warsh-asbahani/344.png",
     text: "page 344",
   },
   {
-    imageUrl: "./pages-warsh/345.png",
+    imageUrl: "./warsh-asbahani/345.png",
     text: "page 345",
   },
   {
-    imageUrl: "./pages-warsh/346.png",
+    imageUrl: "./warsh-asbahani/346.png",
     text: "page 346",
   },
   {
-    imageUrl: "./pages-warsh/347.png",
+    imageUrl: "./warsh-asbahani/347.png",
     text: "page 347",
   },
   {
-    imageUrl: "./pages-warsh/348.png",
+    imageUrl: "./warsh-asbahani/348.png",
     text: "page 348",
   },
   {
-    imageUrl: "./pages-warsh/349.png",
+    imageUrl: "./warsh-asbahani/349.png",
     text: "page 349",
   },
   {
-    imageUrl: "./pages-warsh/35.png",
+    imageUrl: "./warsh-asbahani/35.png",
     text: "page 35",
   },
   {
-    imageUrl: "./pages-warsh/350.png",
+    imageUrl: "./warsh-asbahani/350.png",
     text: "page 350",
   },
   {
-    imageUrl: "./pages-warsh/351.png",
+    imageUrl: "./warsh-asbahani/351.png",
     text: "page 351",
   },
   {
-    imageUrl: "./pages-warsh/352.png",
+    imageUrl: "./warsh-asbahani/352.png",
     text: "page 352",
   },
   {
-    imageUrl: "./pages-warsh/353.png",
+    imageUrl: "./warsh-asbahani/353.png",
     text: "page 353",
   },
   {
-    imageUrl: "./pages-warsh/354.png",
+    imageUrl: "./warsh-asbahani/354.png",
     text: "page 354",
   },
   {
-    imageUrl: "./pages-warsh/355.png",
+    imageUrl: "./warsh-asbahani/355.png",
     text: "page 355",
   },
   {
-    imageUrl: "./pages-warsh/356.png",
+    imageUrl: "./warsh-asbahani/356.png",
     text: "page 356",
   },
   {
-    imageUrl: "./pages-warsh/357.png",
+    imageUrl: "./warsh-asbahani/357.png",
     text: "page 357",
   },
   {
-    imageUrl: "./pages-warsh/358.png",
+    imageUrl: "./warsh-asbahani/358.png",
     text: "page 358",
   },
   {
-    imageUrl: "./pages-warsh/359.png",
+    imageUrl: "./warsh-asbahani/359.png",
     text: "page 359",
   },
   {
-    imageUrl: "./pages-warsh/36.png",
+    imageUrl: "./warsh-asbahani/36.png",
     text: "page 36",
   },
   {
-    imageUrl: "./pages-warsh/360.png",
+    imageUrl: "./warsh-asbahani/360.png",
     text: "page 360",
   },
   {
-    imageUrl: "./pages-warsh/361.png",
+    imageUrl: "./warsh-asbahani/361.png",
     text: "page 361",
   },
   {
-    imageUrl: "./pages-warsh/362.png",
+    imageUrl: "./warsh-asbahani/362.png",
     text: "page 362",
   },
   {
-    imageUrl: "./pages-warsh/363.png",
+    imageUrl: "./warsh-asbahani/363.png",
     text: "page 363",
   },
   {
-    imageUrl: "./pages-warsh/364.png",
+    imageUrl: "./warsh-asbahani/364.png",
     text: "page 364",
   },
   {
-    imageUrl: "./pages-warsh/365.png",
+    imageUrl: "./warsh-asbahani/365.png",
     text: "page 365",
   },
   {
-    imageUrl: "./pages-warsh/366.png",
+    imageUrl: "./warsh-asbahani/366.png",
     text: "page 366",
   },
   {
-    imageUrl: "./pages-warsh/367.png",
+    imageUrl: "./warsh-asbahani/367.png",
     text: "page 367",
   },
   {
-    imageUrl: "./pages-warsh/368.png",
+    imageUrl: "./warsh-asbahani/368.png",
     text: "page 368",
   },
   {
-    imageUrl: "./pages-warsh/369.png",
+    imageUrl: "./warsh-asbahani/369.png",
     text: "page 369",
   },
   {
-    imageUrl: "./pages-warsh/37.png",
+    imageUrl: "./warsh-asbahani/37.png",
     text: "page 37",
   },
   {
-    imageUrl: "./pages-warsh/370.png",
+    imageUrl: "./warsh-asbahani/370.png",
     text: "page 370",
   },
   {
-    imageUrl: "./pages-warsh/371.png",
+    imageUrl: "./warsh-asbahani/371.png",
     text: "page 371",
   },
   {
-    imageUrl: "./pages-warsh/372.png",
+    imageUrl: "./warsh-asbahani/372.png",
     text: "page 372",
   },
   {
-    imageUrl: "./pages-warsh/373.png",
+    imageUrl: "./warsh-asbahani/373.png",
     text: "page 373",
   },
   {
-    imageUrl: "./pages-warsh/374.png",
+    imageUrl: "./warsh-asbahani/374.png",
     text: "page 374",
   },
   {
-    imageUrl: "./pages-warsh/375.png",
+    imageUrl: "./warsh-asbahani/375.png",
     text: "page 375",
   },
   {
-    imageUrl: "./pages-warsh/376.png",
+    imageUrl: "./warsh-asbahani/376.png",
     text: "page 376",
   },
   {
-    imageUrl: "./pages-warsh/377.png",
+    imageUrl: "./warsh-asbahani/377.png",
     text: "page 377",
   },
   {
-    imageUrl: "./pages-warsh/378.png",
+    imageUrl: "./warsh-asbahani/378.png",
     text: "page 378",
   },
   {
-    imageUrl: "./pages-warsh/379.png",
+    imageUrl: "./warsh-asbahani/379.png",
     text: "page 379",
   },
   {
-    imageUrl: "./pages-warsh/38.png",
+    imageUrl: "./warsh-asbahani/38.png",
     text: "page 38",
   },
   {
-    imageUrl: "./pages-warsh/380.png",
+    imageUrl: "./warsh-asbahani/380.png",
     text: "page 380",
   },
   {
-    imageUrl: "./pages-warsh/381.png",
+    imageUrl: "./warsh-asbahani/381.png",
     text: "page 381",
   },
   {
-    imageUrl: "./pages-warsh/382.png",
+    imageUrl: "./warsh-asbahani/382.png",
     text: "page 382",
   },
   {
-    imageUrl: "./pages-warsh/383.png",
+    imageUrl: "./warsh-asbahani/383.png",
     text: "page 383",
   },
   {
-    imageUrl: "./pages-warsh/384.png",
+    imageUrl: "./warsh-asbahani/384.png",
     text: "page 384",
   },
   {
-    imageUrl: "./pages-warsh/385.png",
+    imageUrl: "./warsh-asbahani/385.png",
     text: "page 385",
   },
   {
-    imageUrl: "./pages-warsh/386.png",
+    imageUrl: "./warsh-asbahani/386.png",
     text: "page 386",
   },
   {
-    imageUrl: "./pages-warsh/387.png",
+    imageUrl: "./warsh-asbahani/387.png",
     text: "page 387",
   },
   {
-    imageUrl: "./pages-warsh/388.png",
+    imageUrl: "./warsh-asbahani/388.png",
     text: "page 388",
   },
   {
-    imageUrl: "./pages-warsh/389.png",
+    imageUrl: "./warsh-asbahani/389.png",
     text: "page 389",
   },
   {
-    imageUrl: "./pages-warsh/39.png",
+    imageUrl: "./warsh-asbahani/39.png",
     text: "page 39",
   },
   {
-    imageUrl: "./pages-warsh/390.png",
+    imageUrl: "./warsh-asbahani/390.png",
     text: "page 390",
   },
   {
-    imageUrl: "./pages-warsh/391.png",
+    imageUrl: "./warsh-asbahani/391.png",
     text: "page 391",
   },
   {
-    imageUrl: "./pages-warsh/392.png",
+    imageUrl: "./warsh-asbahani/392.png",
     text: "page 392",
   },
   {
-    imageUrl: "./pages-warsh/393.png",
+    imageUrl: "./warsh-asbahani/393.png",
     text: "page 393",
   },
   {
-    imageUrl: "./pages-warsh/394.png",
+    imageUrl: "./warsh-asbahani/394.png",
     text: "page 394",
   },
   {
-    imageUrl: "./pages-warsh/395.png",
+    imageUrl: "./warsh-asbahani/395.png",
     text: "page 395",
   },
   {
-    imageUrl: "./pages-warsh/396.png",
+    imageUrl: "./warsh-asbahani/396.png",
     text: "page 396",
   },
   {
-    imageUrl: "./pages-warsh/397.png",
+    imageUrl: "./warsh-asbahani/397.png",
     text: "page 397",
   },
   {
-    imageUrl: "./pages-warsh/398.png",
+    imageUrl: "./warsh-asbahani/398.png",
     text: "page 398",
   },
   {
-    imageUrl: "./pages-warsh/399.png",
+    imageUrl: "./warsh-asbahani/399.png",
     text: "page 399",
   },
   {
-    imageUrl: "./pages-warsh/4.png",
+    imageUrl: "./warsh-asbahani/4.png",
     text: "page 4",
   },
   {
-    imageUrl: "./pages-warsh/40.png",
+    imageUrl: "./warsh-asbahani/40.png",
     text: "page 40",
   },
   {
-    imageUrl: "./pages-warsh/400.png",
+    imageUrl: "./warsh-asbahani/400.png",
     text: "page 400",
   },
   {
-    imageUrl: "./pages-warsh/401.png",
+    imageUrl: "./warsh-asbahani/401.png",
     text: "page 401",
   },
   {
-    imageUrl: "./pages-warsh/402.png",
+    imageUrl: "./warsh-asbahani/402.png",
     text: "page 402",
   },
   {
-    imageUrl: "./pages-warsh/403.png",
+    imageUrl: "./warsh-asbahani/403.png",
     text: "page 403",
   },
   {
-    imageUrl: "./pages-warsh/404.png",
+    imageUrl: "./warsh-asbahani/404.png",
     text: "page 404",
   },
   {
-    imageUrl: "./pages-warsh/405.png",
+    imageUrl: "./warsh-asbahani/405.png",
     text: "page 405",
   },
   {
-    imageUrl: "./pages-warsh/406.png",
+    imageUrl: "./warsh-asbahani/406.png",
     text: "page 406",
   },
   {
-    imageUrl: "./pages-warsh/407.png",
+    imageUrl: "./warsh-asbahani/407.png",
     text: "page 407",
   },
   {
-    imageUrl: "./pages-warsh/408.png",
+    imageUrl: "./warsh-asbahani/408.png",
     text: "page 408",
   },
   {
-    imageUrl: "./pages-warsh/409.png",
+    imageUrl: "./warsh-asbahani/409.png",
     text: "page 409",
   },
   {
-    imageUrl: "./pages-warsh/41.png",
+    imageUrl: "./warsh-asbahani/41.png",
     text: "page 41",
   },
   {
-    imageUrl: "./pages-warsh/410.png",
+    imageUrl: "./warsh-asbahani/410.png",
     text: "page 410",
   },
   {
-    imageUrl: "./pages-warsh/411.png",
+    imageUrl: "./warsh-asbahani/411.png",
     text: "page 411",
   },
   {
-    imageUrl: "./pages-warsh/412.png",
+    imageUrl: "./warsh-asbahani/412.png",
     text: "page 412",
   },
   {
-    imageUrl: "./pages-warsh/413.png",
+    imageUrl: "./warsh-asbahani/413.png",
     text: "page 413",
   },
   {
-    imageUrl: "./pages-warsh/414.png",
+    imageUrl: "./warsh-asbahani/414.png",
     text: "page 414",
   },
   {
-    imageUrl: "./pages-warsh/415.png",
+    imageUrl: "./warsh-asbahani/415.png",
     text: "page 415",
   },
   {
-    imageUrl: "./pages-warsh/416.png",
+    imageUrl: "./warsh-asbahani/416.png",
     text: "page 416",
   },
   {
-    imageUrl: "./pages-warsh/417.png",
+    imageUrl: "./warsh-asbahani/417.png",
     text: "page 417",
   },
   {
-    imageUrl: "./pages-warsh/418.png",
+    imageUrl: "./warsh-asbahani/418.png",
     text: "page 418",
   },
   {
-    imageUrl: "./pages-warsh/419.png",
+    imageUrl: "./warsh-asbahani/419.png",
     text: "page 419",
   },
   {
-    imageUrl: "./pages-warsh/42.png",
+    imageUrl: "./warsh-asbahani/42.png",
     text: "page 42",
   },
   {
-    imageUrl: "./pages-warsh/420.png",
+    imageUrl: "./warsh-asbahani/420.png",
     text: "page 420",
   },
   {
-    imageUrl: "./pages-warsh/421.png",
+    imageUrl: "./warsh-asbahani/421.png",
     text: "page 421",
   },
   {
-    imageUrl: "./pages-warsh/422.png",
+    imageUrl: "./warsh-asbahani/422.png",
     text: "page 422",
   },
   {
-    imageUrl: "./pages-warsh/423.png",
+    imageUrl: "./warsh-asbahani/423.png",
     text: "page 423",
   },
   {
-    imageUrl: "./pages-warsh/424.png",
+    imageUrl: "./warsh-asbahani/424.png",
     text: "page 424",
   },
   {
-    imageUrl: "./pages-warsh/425.png",
+    imageUrl: "./warsh-asbahani/425.png",
     text: "page 425",
   },
   {
-    imageUrl: "./pages-warsh/426.png",
+    imageUrl: "./warsh-asbahani/426.png",
     text: "page 426",
   },
   {
-    imageUrl: "./pages-warsh/427.png",
+    imageUrl: "./warsh-asbahani/427.png",
     text: "page 427",
   },
   {
-    imageUrl: "./pages-warsh/428.png",
+    imageUrl: "./warsh-asbahani/428.png",
     text: "page 428",
   },
   {
-    imageUrl: "./pages-warsh/429.png",
+    imageUrl: "./warsh-asbahani/429.png",
     text: "page 429",
   },
   {
-    imageUrl: "./pages-warsh/43.png",
+    imageUrl: "./warsh-asbahani/43.png",
     text: "page 43",
   },
   {
-    imageUrl: "./pages-warsh/430.png",
+    imageUrl: "./warsh-asbahani/430.png",
     text: "page 430",
   },
   {
-    imageUrl: "./pages-warsh/431.png",
+    imageUrl: "./warsh-asbahani/431.png",
     text: "page 431",
   },
   {
-    imageUrl: "./pages-warsh/432.png",
+    imageUrl: "./warsh-asbahani/432.png",
     text: "page 432",
   },
   {
-    imageUrl: "./pages-warsh/433.png",
+    imageUrl: "./warsh-asbahani/433.png",
     text: "page 433",
   },
   {
-    imageUrl: "./pages-warsh/434.png",
+    imageUrl: "./warsh-asbahani/434.png",
     text: "page 434",
   },
   {
-    imageUrl: "./pages-warsh/435.png",
+    imageUrl: "./warsh-asbahani/435.png",
     text: "page 435",
   },
   {
-    imageUrl: "./pages-warsh/436.png",
+    imageUrl: "./warsh-asbahani/436.png",
     text: "page 436",
   },
   {
-    imageUrl: "./pages-warsh/437.png",
+    imageUrl: "./warsh-asbahani/437.png",
     text: "page 437",
   },
   {
-    imageUrl: "./pages-warsh/438.png",
+    imageUrl: "./warsh-asbahani/438.png",
     text: "page 438",
   },
   {
-    imageUrl: "./pages-warsh/439.png",
+    imageUrl: "./warsh-asbahani/439.png",
     text: "page 439",
   },
   {
-    imageUrl: "./pages-warsh/44.png",
+    imageUrl: "./warsh-asbahani/44.png",
     text: "page 44",
   },
   {
-    imageUrl: "./pages-warsh/440.png",
+    imageUrl: "./warsh-asbahani/440.png",
     text: "page 440",
   },
   {
-    imageUrl: "./pages-warsh/441.png",
+    imageUrl: "./warsh-asbahani/441.png",
     text: "page 441",
   },
   {
-    imageUrl: "./pages-warsh/442.png",
+    imageUrl: "./warsh-asbahani/442.png",
     text: "page 442",
   },
   {
-    imageUrl: "./pages-warsh/443.png",
+    imageUrl: "./warsh-asbahani/443.png",
     text: "page 443",
   },
   {
-    imageUrl: "./pages-warsh/444.png",
+    imageUrl: "./warsh-asbahani/444.png",
     text: "page 444",
   },
   {
-    imageUrl: "./pages-warsh/445.png",
+    imageUrl: "./warsh-asbahani/445.png",
     text: "page 445",
   },
   {
-    imageUrl: "./pages-warsh/446.png",
+    imageUrl: "./warsh-asbahani/446.png",
     text: "page 446",
   },
   {
-    imageUrl: "./pages-warsh/447.png",
+    imageUrl: "./warsh-asbahani/447.png",
     text: "page 447",
   },
   {
-    imageUrl: "./pages-warsh/448.png",
+    imageUrl: "./warsh-asbahani/448.png",
     text: "page 448",
   },
   {
-    imageUrl: "./pages-warsh/449.png",
+    imageUrl: "./warsh-asbahani/449.png",
     text: "page 449",
   },
   {
-    imageUrl: "./pages-warsh/45.png",
+    imageUrl: "./warsh-asbahani/45.png",
     text: "page 45",
   },
   {
-    imageUrl: "./pages-warsh/450.png",
+    imageUrl: "./warsh-asbahani/450.png",
     text: "page 450",
   },
   {
-    imageUrl: "./pages-warsh/451.png",
+    imageUrl: "./warsh-asbahani/451.png",
     text: "page 451",
   },
   {
-    imageUrl: "./pages-warsh/452.png",
+    imageUrl: "./warsh-asbahani/452.png",
     text: "page 452",
   },
   {
-    imageUrl: "./pages-warsh/453.png",
+    imageUrl: "./warsh-asbahani/453.png",
     text: "page 453",
   },
   {
-    imageUrl: "./pages-warsh/454.png",
+    imageUrl: "./warsh-asbahani/454.png",
     text: "page 454",
   },
   {
-    imageUrl: "./pages-warsh/455.png",
+    imageUrl: "./warsh-asbahani/455.png",
     text: "page 455",
   },
   {
-    imageUrl: "./pages-warsh/456.png",
+    imageUrl: "./warsh-asbahani/456.png",
     text: "page 456",
   },
   {
-    imageUrl: "./pages-warsh/457.png",
+    imageUrl: "./warsh-asbahani/457.png",
     text: "page 457",
   },
   {
-    imageUrl: "./pages-warsh/458.png",
+    imageUrl: "./warsh-asbahani/458.png",
     text: "page 458",
   },
   {
-    imageUrl: "./pages-warsh/459.png",
+    imageUrl: "./warsh-asbahani/459.png",
     text: "page 459",
   },
   {
-    imageUrl: "./pages-warsh/46.png",
+    imageUrl: "./warsh-asbahani/46.png",
     text: "page 46",
   },
   {
-    imageUrl: "./pages-warsh/460.png",
+    imageUrl: "./warsh-asbahani/460.png",
     text: "page 460",
   },
   {
-    imageUrl: "./pages-warsh/461.png",
+    imageUrl: "./warsh-asbahani/461.png",
     text: "page 461",
   },
   {
-    imageUrl: "./pages-warsh/462.png",
+    imageUrl: "./warsh-asbahani/462.png",
     text: "page 462",
   },
   {
-    imageUrl: "./pages-warsh/463.png",
+    imageUrl: "./warsh-asbahani/463.png",
     text: "page 463",
   },
   {
-    imageUrl: "./pages-warsh/464.png",
+    imageUrl: "./warsh-asbahani/464.png",
     text: "page 464",
   },
   {
-    imageUrl: "./pages-warsh/465.png",
+    imageUrl: "./warsh-asbahani/465.png",
     text: "page 465",
   },
   {
-    imageUrl: "./pages-warsh/466.png",
+    imageUrl: "./warsh-asbahani/466.png",
     text: "page 466",
   },
   {
-    imageUrl: "./pages-warsh/467.png",
+    imageUrl: "./warsh-asbahani/467.png",
     text: "page 467",
   },
   {
-    imageUrl: "./pages-warsh/468.png",
+    imageUrl: "./warsh-asbahani/468.png",
     text: "page 468",
   },
   {
-    imageUrl: "./pages-warsh/469.png",
+    imageUrl: "./warsh-asbahani/469.png",
     text: "page 469",
   },
   {
-    imageUrl: "./pages-warsh/47.png",
+    imageUrl: "./warsh-asbahani/47.png",
     text: "page 47",
   },
   {
-    imageUrl: "./pages-warsh/470.png",
+    imageUrl: "./warsh-asbahani/470.png",
     text: "page 470",
   },
   {
-    imageUrl: "./pages-warsh/471.png",
+    imageUrl: "./warsh-asbahani/471.png",
     text: "page 471",
   },
   {
-    imageUrl: "./pages-warsh/472.png",
+    imageUrl: "./warsh-asbahani/472.png",
     text: "page 472",
   },
   {
-    imageUrl: "./pages-warsh/473.png",
+    imageUrl: "./warsh-asbahani/473.png",
     text: "page 473",
   },
   {
-    imageUrl: "./pages-warsh/474.png",
+    imageUrl: "./warsh-asbahani/474.png",
     text: "page 474",
   },
   {
-    imageUrl: "./pages-warsh/475.png",
+    imageUrl: "./warsh-asbahani/475.png",
     text: "page 475",
   },
   {
-    imageUrl: "./pages-warsh/476.png",
+    imageUrl: "./warsh-asbahani/476.png",
     text: "page 476",
   },
   {
-    imageUrl: "./pages-warsh/477.png",
+    imageUrl: "./warsh-asbahani/477.png",
     text: "page 477",
   },
   {
-    imageUrl: "./pages-warsh/478.png",
+    imageUrl: "./warsh-asbahani/478.png",
     text: "page 478",
   },
   {
-    imageUrl: "./pages-warsh/479.png",
+    imageUrl: "./warsh-asbahani/479.png",
     text: "page 479",
   },
   {
-    imageUrl: "./pages-warsh/48.png",
+    imageUrl: "./warsh-asbahani/48.png",
     text: "page 48",
   },
   {
-    imageUrl: "./pages-warsh/480.png",
+    imageUrl: "./warsh-asbahani/480.png",
     text: "page 480",
   },
   {
-    imageUrl: "./pages-warsh/481.png",
+    imageUrl: "./warsh-asbahani/481.png",
     text: "page 481",
   },
   {
-    imageUrl: "./pages-warsh/482.png",
+    imageUrl: "./warsh-asbahani/482.png",
     text: "page 482",
   },
   {
-    imageUrl: "./pages-warsh/483.png",
+    imageUrl: "./warsh-asbahani/483.png",
     text: "page 483",
   },
   {
-    imageUrl: "./pages-warsh/484.png",
+    imageUrl: "./warsh-asbahani/484.png",
     text: "page 484",
   },
   {
-    imageUrl: "./pages-warsh/485.png",
+    imageUrl: "./warsh-asbahani/485.png",
     text: "page 485",
   },
   {
-    imageUrl: "./pages-warsh/486.png",
+    imageUrl: "./warsh-asbahani/486.png",
     text: "page 486",
   },
   {
-    imageUrl: "./pages-warsh/487.png",
+    imageUrl: "./warsh-asbahani/487.png",
     text: "page 487",
   },
   {
-    imageUrl: "./pages-warsh/488.png",
+    imageUrl: "./warsh-asbahani/488.png",
     text: "page 488",
   },
   {
-    imageUrl: "./pages-warsh/489.png",
+    imageUrl: "./warsh-asbahani/489.png",
     text: "page 489",
   },
   {
-    imageUrl: "./pages-warsh/49.png",
+    imageUrl: "./warsh-asbahani/49.png",
     text: "page 49",
   },
   {
-    imageUrl: "./pages-warsh/490.png",
+    imageUrl: "./warsh-asbahani/490.png",
     text: "page 490",
   },
   {
-    imageUrl: "./pages-warsh/491.png",
+    imageUrl: "./warsh-asbahani/491.png",
     text: "page 491",
   },
   {
-    imageUrl: "./pages-warsh/492.png",
+    imageUrl: "./warsh-asbahani/492.png",
     text: "page 492",
   },
   {
-    imageUrl: "./pages-warsh/493.png",
+    imageUrl: "./warsh-asbahani/493.png",
     text: "page 493",
   },
   {
-    imageUrl: "./pages-warsh/494.png",
+    imageUrl: "./warsh-asbahani/494.png",
     text: "page 494",
   },
   {
-    imageUrl: "./pages-warsh/495.png",
+    imageUrl: "./warsh-asbahani/495.png",
     text: "page 495",
   },
   {
-    imageUrl: "./pages-warsh/496.png",
+    imageUrl: "./warsh-asbahani/496.png",
     text: "page 496",
   },
   {
-    imageUrl: "./pages-warsh/497.png",
+    imageUrl: "./warsh-asbahani/497.png",
     text: "page 497",
   },
   {
-    imageUrl: "./pages-warsh/498.png",
+    imageUrl: "./warsh-asbahani/498.png",
     text: "page 498",
   },
   {
-    imageUrl: "./pages-warsh/499.png",
+    imageUrl: "./warsh-asbahani/499.png",
     text: "page 499",
   },
   {
-    imageUrl: "./pages-warsh/5.png",
+    imageUrl: "./warsh-asbahani/5.png",
     text: "page 5",
   },
   {
-    imageUrl: "./pages-warsh/50.png",
+    imageUrl: "./warsh-asbahani/50.png",
     text: "page 50",
   },
   {
-    imageUrl: "./pages-warsh/500.png",
+    imageUrl: "./warsh-asbahani/500.png",
     text: "page 500",
   },
   {
-    imageUrl: "./pages-warsh/501.png",
+    imageUrl: "./warsh-asbahani/501.png",
     text: "page 501",
   },
   {
-    imageUrl: "./pages-warsh/502.png",
+    imageUrl: "./warsh-asbahani/502.png",
     text: "page 502",
   },
   {
-    imageUrl: "./pages-warsh/503.png",
+    imageUrl: "./warsh-asbahani/503.png",
     text: "page 503",
   },
   {
-    imageUrl: "./pages-warsh/504.png",
+    imageUrl: "./warsh-asbahani/504.png",
     text: "page 504",
   },
   {
-    imageUrl: "./pages-warsh/505.png",
+    imageUrl: "./warsh-asbahani/505.png",
     text: "page 505",
   },
   {
-    imageUrl: "./pages-warsh/506.png",
+    imageUrl: "./warsh-asbahani/506.png",
     text: "page 506",
   },
   {
-    imageUrl: "./pages-warsh/507.png",
+    imageUrl: "./warsh-asbahani/507.png",
     text: "page 507",
   },
   {
-    imageUrl: "./pages-warsh/508.png",
+    imageUrl: "./warsh-asbahani/508.png",
     text: "page 508",
   },
   {
-    imageUrl: "./pages-warsh/509.png",
+    imageUrl: "./warsh-asbahani/509.png",
     text: "page 509",
   },
   {
-    imageUrl: "./pages-warsh/51.png",
+    imageUrl: "./warsh-asbahani/51.png",
     text: "page 51",
   },
   {
-    imageUrl: "./pages-warsh/510.png",
+    imageUrl: "./warsh-asbahani/510.png",
     text: "page 510",
   },
   {
-    imageUrl: "./pages-warsh/511.png",
+    imageUrl: "./warsh-asbahani/511.png",
     text: "page 511",
   },
   {
-    imageUrl: "./pages-warsh/512.png",
+    imageUrl: "./warsh-asbahani/512.png",
     text: "page 512",
   },
   {
-    imageUrl: "./pages-warsh/513.png",
+    imageUrl: "./warsh-asbahani/513.png",
     text: "page 513",
   },
   {
-    imageUrl: "./pages-warsh/514.png",
+    imageUrl: "./warsh-asbahani/514.png",
     text: "page 514",
   },
   {
-    imageUrl: "./pages-warsh/515.png",
+    imageUrl: "./warsh-asbahani/515.png",
     text: "page 515",
   },
   {
-    imageUrl: "./pages-warsh/516.png",
+    imageUrl: "./warsh-asbahani/516.png",
     text: "page 516",
   },
   {
-    imageUrl: "./pages-warsh/517.png",
+    imageUrl: "./warsh-asbahani/517.png",
     text: "page 517",
   },
   {
-    imageUrl: "./pages-warsh/518.png",
+    imageUrl: "./warsh-asbahani/518.png",
     text: "page 518",
   },
   {
-    imageUrl: "./pages-warsh/519.png",
+    imageUrl: "./warsh-asbahani/519.png",
     text: "page 519",
   },
   {
-    imageUrl: "./pages-warsh/52.png",
+    imageUrl: "./warsh-asbahani/52.png",
     text: "page 52",
   },
   {
-    imageUrl: "./pages-warsh/520.png",
+    imageUrl: "./warsh-asbahani/520.png",
     text: "page 520",
   },
   {
-    imageUrl: "./pages-warsh/521.png",
+    imageUrl: "./warsh-asbahani/521.png",
     text: "page 521",
   },
   {
-    imageUrl: "./pages-warsh/522.png",
+    imageUrl: "./warsh-asbahani/522.png",
     text: "page 522",
   },
   {
-    imageUrl: "./pages-warsh/523.png",
+    imageUrl: "./warsh-asbahani/523.png",
     text: "page 523",
   },
   {
-    imageUrl: "./pages-warsh/524.png",
+    imageUrl: "./warsh-asbahani/524.png",
     text: "page 524",
   },
   {
-    imageUrl: "./pages-warsh/525.png",
+    imageUrl: "./warsh-asbahani/525.png",
     text: "page 525",
   },
   {
-    imageUrl: "./pages-warsh/526.png",
+    imageUrl: "./warsh-asbahani/526.png",
     text: "page 526",
   },
   {
-    imageUrl: "./pages-warsh/527.png",
+    imageUrl: "./warsh-asbahani/527.png",
     text: "page 527",
   },
   {
-    imageUrl: "./pages-warsh/528.png",
+    imageUrl: "./warsh-asbahani/528.png",
     text: "page 528",
   },
   {
-    imageUrl: "./pages-warsh/529.png",
+    imageUrl: "./warsh-asbahani/529.png",
     text: "page 529",
   },
   {
-    imageUrl: "./pages-warsh/53.png",
+    imageUrl: "./warsh-asbahani/53.png",
     text: "page 53",
   },
   {
-    imageUrl: "./pages-warsh/530.png",
+    imageUrl: "./warsh-asbahani/530.png",
     text: "page 530",
   },
   {
-    imageUrl: "./pages-warsh/531.png",
+    imageUrl: "./warsh-asbahani/531.png",
     text: "page 531",
   },
   {
-    imageUrl: "./pages-warsh/532.png",
+    imageUrl: "./warsh-asbahani/532.png",
     text: "page 532",
   },
   {
-    imageUrl: "./pages-warsh/533.png",
+    imageUrl: "./warsh-asbahani/533.png",
     text: "page 533",
   },
   {
-    imageUrl: "./pages-warsh/534.png",
+    imageUrl: "./warsh-asbahani/534.png",
     text: "page 534",
   },
   {
-    imageUrl: "./pages-warsh/535.png",
+    imageUrl: "./warsh-asbahani/535.png",
     text: "page 535",
   },
   {
-    imageUrl: "./pages-warsh/536.png",
+    imageUrl: "./warsh-asbahani/536.png",
     text: "page 536",
   },
   {
-    imageUrl: "./pages-warsh/537.png",
+    imageUrl: "./warsh-asbahani/537.png",
     text: "page 537",
   },
   {
-    imageUrl: "./pages-warsh/538.png",
+    imageUrl: "./warsh-asbahani/538.png",
     text: "page 538",
   },
   {
-    imageUrl: "./pages-warsh/539.png",
+    imageUrl: "./warsh-asbahani/539.png",
     text: "page 539",
   },
   {
-    imageUrl: "./pages-warsh/54.png",
+    imageUrl: "./warsh-asbahani/54.png",
     text: "page 54",
   },
   {
-    imageUrl: "./pages-warsh/540.png",
+    imageUrl: "./warsh-asbahani/540.png",
     text: "page 540",
   },
   {
-    imageUrl: "./pages-warsh/541.png",
+    imageUrl: "./warsh-asbahani/541.png",
     text: "page 541",
   },
   {
-    imageUrl: "./pages-warsh/542.png",
+    imageUrl: "./warsh-asbahani/542.png",
     text: "page 542",
   },
   {
-    imageUrl: "./pages-warsh/543.png",
+    imageUrl: "./warsh-asbahani/543.png",
     text: "page 543",
   },
   {
-    imageUrl: "./pages-warsh/544.png",
+    imageUrl: "./warsh-asbahani/544.png",
     text: "page 544",
   },
   {
-    imageUrl: "./pages-warsh/545.png",
+    imageUrl: "./warsh-asbahani/545.png",
     text: "page 545",
   },
   {
-    imageUrl: "./pages-warsh/546.png",
+    imageUrl: "./warsh-asbahani/546.png",
     text: "page 546",
   },
   {
-    imageUrl: "./pages-warsh/547.png",
+    imageUrl: "./warsh-asbahani/547.png",
     text: "page 547",
   },
   {
-    imageUrl: "./pages-warsh/548.png",
+    imageUrl: "./warsh-asbahani/548.png",
     text: "page 548",
   },
   {
-    imageUrl: "./pages-warsh/549.png",
+    imageUrl: "./warsh-asbahani/549.png",
     text: "page 549",
   },
   {
-    imageUrl: "./pages-warsh/55.png",
+    imageUrl: "./warsh-asbahani/55.png",
     text: "page 55",
   },
   {
-    imageUrl: "./pages-warsh/550.png",
+    imageUrl: "./warsh-asbahani/550.png",
     text: "page 550",
   },
   {
-    imageUrl: "./pages-warsh/551.png",
+    imageUrl: "./warsh-asbahani/551.png",
     text: "page 551",
   },
   {
-    imageUrl: "./pages-warsh/552.png",
+    imageUrl: "./warsh-asbahani/552.png",
     text: "page 552",
   },
   {
-    imageUrl: "./pages-warsh/553.png",
+    imageUrl: "./warsh-asbahani/553.png",
     text: "page 553",
   },
   {
-    imageUrl: "./pages-warsh/554.png",
+    imageUrl: "./warsh-asbahani/554.png",
     text: "page 554",
   },
   {
-    imageUrl: "./pages-warsh/555.png",
+    imageUrl: "./warsh-asbahani/555.png",
     text: "page 555",
   },
   {
-    imageUrl: "./pages-warsh/556.png",
+    imageUrl: "./warsh-asbahani/556.png",
     text: "page 556",
   },
   {
-    imageUrl: "./pages-warsh/557.png",
+    imageUrl: "./warsh-asbahani/557.png",
     text: "page 557",
   },
   {
-    imageUrl: "./pages-warsh/558.png",
+    imageUrl: "./warsh-asbahani/558.png",
     text: "page 558",
   },
   {
-    imageUrl: "./pages-warsh/559.png",
+    imageUrl: "./warsh-asbahani/559.png",
     text: "page 559",
   },
   {
-    imageUrl: "./pages-warsh/56.png",
+    imageUrl: "./warsh-asbahani/56.png",
     text: "page 56",
   },
   {
-    imageUrl: "./pages-warsh/560.png",
+    imageUrl: "./warsh-asbahani/560.png",
     text: "page 560",
   },
   {
-    imageUrl: "./pages-warsh/561.png",
+    imageUrl: "./warsh-asbahani/561.png",
     text: "page 561",
   },
   {
-    imageUrl: "./pages-warsh/562.png",
+    imageUrl: "./warsh-asbahani/562.png",
     text: "page 562",
   },
   {
-    imageUrl: "./pages-warsh/563.png",
+    imageUrl: "./warsh-asbahani/563.png",
     text: "page 563",
   },
   {
-    imageUrl: "./pages-warsh/564.png",
+    imageUrl: "./warsh-asbahani/564.png",
     text: "page 564",
   },
   {
-    imageUrl: "./pages-warsh/565.png",
+    imageUrl: "./warsh-asbahani/565.png",
     text: "page 565",
   },
   {
-    imageUrl: "./pages-warsh/566.png",
+    imageUrl: "./warsh-asbahani/566.png",
     text: "page 566",
   },
   {
-    imageUrl: "./pages-warsh/567.png",
+    imageUrl: "./warsh-asbahani/567.png",
     text: "page 567",
   },
   {
-    imageUrl: "./pages-warsh/568.png",
+    imageUrl: "./warsh-asbahani/568.png",
     text: "page 568",
   },
   {
-    imageUrl: "./pages-warsh/569.png",
+    imageUrl: "./warsh-asbahani/569.png",
     text: "page 569",
   },
   {
-    imageUrl: "./pages-warsh/57.png",
+    imageUrl: "./warsh-asbahani/57.png",
     text: "page 57",
   },
   {
-    imageUrl: "./pages-warsh/570.png",
+    imageUrl: "./warsh-asbahani/570.png",
     text: "page 570",
   },
   {
-    imageUrl: "./pages-warsh/571.png",
+    imageUrl: "./warsh-asbahani/571.png",
     text: "page 571",
   },
   {
-    imageUrl: "./pages-warsh/572.png",
+    imageUrl: "./warsh-asbahani/572.png",
     text: "page 572",
   },
   {
-    imageUrl: "./pages-warsh/573.png",
+    imageUrl: "./warsh-asbahani/573.png",
     text: "page 573",
   },
   {
-    imageUrl: "./pages-warsh/574.png",
+    imageUrl: "./warsh-asbahani/574.png",
     text: "page 574",
   },
   {
-    imageUrl: "./pages-warsh/575.png",
+    imageUrl: "./warsh-asbahani/575.png",
     text: "page 575",
   },
   {
-    imageUrl: "./pages-warsh/576.png",
+    imageUrl: "./warsh-asbahani/576.png",
     text: "page 576",
   },
   {
-    imageUrl: "./pages-warsh/577.png",
+    imageUrl: "./warsh-asbahani/577.png",
     text: "page 577",
   },
   {
-    imageUrl: "./pages-warsh/578.png",
+    imageUrl: "./warsh-asbahani/578.png",
     text: "page 578",
   },
   {
-    imageUrl: "./pages-warsh/579.png",
+    imageUrl: "./warsh-asbahani/579.png",
     text: "page 579",
   },
   {
-    imageUrl: "./pages-warsh/58.png",
+    imageUrl: "./warsh-asbahani/58.png",
     text: "page 58",
   },
   {
-    imageUrl: "./pages-warsh/580.png",
+    imageUrl: "./warsh-asbahani/580.png",
     text: "page 580",
   },
   {
-    imageUrl: "./pages-warsh/581.png",
+    imageUrl: "./warsh-asbahani/581.png",
     text: "page 581",
   },
   {
-    imageUrl: "./pages-warsh/582.png",
+    imageUrl: "./warsh-asbahani/582.png",
     text: "page 582",
   },
   {
-    imageUrl: "./pages-warsh/583.png",
+    imageUrl: "./warsh-asbahani/583.png",
     text: "page 583",
   },
   {
-    imageUrl: "./pages-warsh/584.png",
+    imageUrl: "./warsh-asbahani/584.png",
     text: "page 584",
   },
   {
-    imageUrl: "./pages-warsh/585.png",
+    imageUrl: "./warsh-asbahani/585.png",
     text: "page 585",
   },
   {
-    imageUrl: "./pages-warsh/586.png",
+    imageUrl: "./warsh-asbahani/586.png",
     text: "page 586",
   },
   {
-    imageUrl: "./pages-warsh/587.png",
+    imageUrl: "./warsh-asbahani/587.png",
     text: "page 587",
   },
   {
-    imageUrl: "./pages-warsh/588.png",
+    imageUrl: "./warsh-asbahani/588.png",
     text: "page 588",
   },
   {
-    imageUrl: "./pages-warsh/589.png",
+    imageUrl: "./warsh-asbahani/589.png",
     text: "page 589",
   },
   {
-    imageUrl: "./pages-warsh/59.png",
+    imageUrl: "./warsh-asbahani/59.png",
     text: "page 59",
   },
   {
-    imageUrl: "./pages-warsh/590.png",
+    imageUrl: "./warsh-asbahani/590.png",
     text: "page 590",
   },
   {
-    imageUrl: "./pages-warsh/591.png",
+    imageUrl: "./warsh-asbahani/591.png",
     text: "page 591",
   },
   {
-    imageUrl: "./pages-warsh/592.png",
+    imageUrl: "./warsh-asbahani/592.png",
     text: "page 592",
   },
   {
-    imageUrl: "./pages-warsh/593.png",
+    imageUrl: "./warsh-asbahani/593.png",
     text: "page 593",
   },
   {
-    imageUrl: "./pages-warsh/594.png",
+    imageUrl: "./warsh-asbahani/594.png",
     text: "page 594",
   },
   {
-    imageUrl: "./pages-warsh/595.png",
+    imageUrl: "./warsh-asbahani/595.png",
     text: "page 595",
   },
   {
-    imageUrl: "./pages-warsh/596.png",
+    imageUrl: "./warsh-asbahani/596.png",
     text: "page 596",
   },
   {
-    imageUrl: "./pages-warsh/597.png",
+    imageUrl: "./warsh-asbahani/597.png",
     text: "page 597",
   },
   {
-    imageUrl: "./pages-warsh/598.png",
+    imageUrl: "./warsh-asbahani/598.png",
     text: "page 598",
   },
   {
-    imageUrl: "./pages-warsh/599.png",
+    imageUrl: "./warsh-asbahani/599.png",
     text: "page 599",
   },
   {
-    imageUrl: "./pages-warsh/6.png",
+    imageUrl: "./warsh-asbahani/6.png",
     text: "page 6",
   },
   {
-    imageUrl: "./pages-warsh/60.png",
+    imageUrl: "./warsh-asbahani/60.png",
     text: "page 60",
   },
   {
-    imageUrl: "./pages-warsh/600.png",
+    imageUrl: "./warsh-asbahani/600.png",
     text: "page 600",
   },
   {
-    imageUrl: "./pages-warsh/601.png",
+    imageUrl: "./warsh-asbahani/601.png",
     text: "page 601",
   },
   {
-    imageUrl: "./pages-warsh/602.png",
+    imageUrl: "./warsh-asbahani/602.png",
     text: "page 602",
   },
   {
-    imageUrl: "./pages-warsh/603.png",
+    imageUrl: "./warsh-asbahani/603.png",
     text: "page 603",
   },
   {
-    imageUrl: "./pages-warsh/604.png",
+    imageUrl: "./warsh-asbahani/604.png",
     text: "page 604",
   },
   {
-    imageUrl: "./pages-warsh/605.png",
+    imageUrl: "./warsh-asbahani/605.png",
     text: "page 605",
   },
   {
-    imageUrl: "./pages-warsh/606.png",
+    imageUrl: "./warsh-asbahani/606.png",
     text: "page 606",
   },
   {
-    imageUrl: "./pages-warsh/607.png",
+    imageUrl: "./warsh-asbahani/607.png",
     text: "page 607",
   },
   {
-    imageUrl: "./pages-warsh/608.png",
+    imageUrl: "./warsh-asbahani/608.png",
     text: "page 608",
   },
   {
-    imageUrl: "./pages-warsh/609.png",
+    imageUrl: "./warsh-asbahani/609.png",
     text: "page 609",
   },
   {
-    imageUrl: "./pages-warsh/61.png",
+    imageUrl: "./warsh-asbahani/61.png",
     text: "page 61",
   },
   {
-    imageUrl: "./pages-warsh/610.png",
+    imageUrl: "./warsh-asbahani/610.png",
     text: "page 610",
   },
   {
-    imageUrl: "./pages-warsh/611.png",
+    imageUrl: "./warsh-asbahani/611.png",
     text: "page 611",
   },
   {
-    imageUrl: "./pages-warsh/62.png",
+    imageUrl: "./warsh-asbahani/62.png",
     text: "page 62",
   },
   {
-    imageUrl: "./pages-warsh/63.png",
+    imageUrl: "./warsh-asbahani/63.png",
     text: "page 63",
   },
   {
-    imageUrl: "./pages-warsh/64.png",
+    imageUrl: "./warsh-asbahani/64.png",
     text: "page 64",
   },
   {
-    imageUrl: "./pages-warsh/65.png",
+    imageUrl: "./warsh-asbahani/65.png",
     text: "page 65",
   },
   {
-    imageUrl: "./pages-warsh/66.png",
+    imageUrl: "./warsh-asbahani/66.png",
     text: "page 66",
   },
   {
-    imageUrl: "./pages-warsh/67.png",
+    imageUrl: "./warsh-asbahani/67.png",
     text: "page 67",
   },
   {
-    imageUrl: "./pages-warsh/68.png",
+    imageUrl: "./warsh-asbahani/68.png",
     text: "page 68",
   },
   {
-    imageUrl: "./pages-warsh/69.png",
+    imageUrl: "./warsh-asbahani/69.png",
     text: "page 69",
   },
   {
-    imageUrl: "./pages-warsh/7.png",
+    imageUrl: "./warsh-asbahani/7.png",
     text: "page 7",
   },
   {
-    imageUrl: "./pages-warsh/70.png",
+    imageUrl: "./warsh-asbahani/70.png",
     text: "page 70",
   },
   {
-    imageUrl: "./pages-warsh/71.png",
+    imageUrl: "./warsh-asbahani/71.png",
     text: "page 71",
   },
   {
-    imageUrl: "./pages-warsh/72.png",
+    imageUrl: "./warsh-asbahani/72.png",
     text: "page 72",
   },
   {
-    imageUrl: "./pages-warsh/73.png",
+    imageUrl: "./warsh-asbahani/73.png",
     text: "page 73",
   },
   {
-    imageUrl: "./pages-warsh/74.png",
+    imageUrl: "./warsh-asbahani/74.png",
     text: "page 74",
   },
   {
-    imageUrl: "./pages-warsh/75.png",
+    imageUrl: "./warsh-asbahani/75.png",
     text: "page 75",
   },
   {
-    imageUrl: "./pages-warsh/76.png",
+    imageUrl: "./warsh-asbahani/76.png",
     text: "page 76",
   },
   {
-    imageUrl: "./pages-warsh/77.png",
+    imageUrl: "./warsh-asbahani/77.png",
     text: "page 77",
   },
   {
-    imageUrl: "./pages-warsh/78.png",
+    imageUrl: "./warsh-asbahani/78.png",
     text: "page 78",
   },
   {
-    imageUrl: "./pages-warsh/79.png",
+    imageUrl: "./warsh-asbahani/79.png",
     text: "page 79",
   },
   {
-    imageUrl: "./pages-warsh/8.png",
+    imageUrl: "./warsh-asbahani/8.png",
     text: "page 8",
   },
   {
-    imageUrl: "./pages-warsh/80.png",
+    imageUrl: "./warsh-asbahani/80.png",
     text: "page 80",
   },
   {
-    imageUrl: "./pages-warsh/81.png",
+    imageUrl: "./warsh-asbahani/81.png",
     text: "page 81",
   },
   {
-    imageUrl: "./pages-warsh/82.png",
+    imageUrl: "./warsh-asbahani/82.png",
     text: "page 82",
   },
   {
-    imageUrl: "./pages-warsh/83.png",
+    imageUrl: "./warsh-asbahani/83.png",
     text: "page 83",
   },
   {
-    imageUrl: "./pages-warsh/84.png",
+    imageUrl: "./warsh-asbahani/84.png",
     text: "page 84",
   },
   {
-    imageUrl: "./pages-warsh/85.png",
+    imageUrl: "./warsh-asbahani/85.png",
     text: "page 85",
   },
   {
-    imageUrl: "./pages-warsh/86.png",
+    imageUrl: "./warsh-asbahani/86.png",
     text: "page 86",
   },
   {
-    imageUrl: "./pages-warsh/87.png",
+    imageUrl: "./warsh-asbahani/87.png",
     text: "page 87",
   },
   {
-    imageUrl: "./pages-warsh/88.png",
+    imageUrl: "./warsh-asbahani/88.png",
     text: "page 88",
   },
   {
-    imageUrl: "./pages-warsh/89.png",
+    imageUrl: "./warsh-asbahani/89.png",
     text: "page 89",
   },
   {
-    imageUrl: "./pages-warsh/9.png",
+    imageUrl: "./warsh-asbahani/9.png",
     text: "page 9",
   },
   {
-    imageUrl: "./pages-warsh/90.png",
+    imageUrl: "./warsh-asbahani/90.png",
     text: "page 90",
   },
   {
-    imageUrl: "./pages-warsh/91.png",
+    imageUrl: "./warsh-asbahani/91.png",
     text: "page 91",
   },
   {
-    imageUrl: "./pages-warsh/92.png",
+    imageUrl: "./warsh-asbahani/92.png",
     text: "page 92",
   },
   {
-    imageUrl: "./pages-warsh/93.png",
+    imageUrl: "./warsh-asbahani/93.png",
     text: "page 93",
   },
   {
-    imageUrl: "./pages-warsh/94.png",
+    imageUrl: "./warsh-asbahani/94.png",
     text: "page 94",
   },
   {
-    imageUrl: "./pages-warsh/95.png",
+    imageUrl: "./warsh-asbahani/95.png",
     text: "page 95",
   },
   {
-    imageUrl: "./pages-warsh/96.png",
+    imageUrl: "./warsh-asbahani/96.png",
     text: "page 96",
   },
   {
-    imageUrl: "./pages-warsh/97.png",
+    imageUrl: "./warsh-asbahani/97.png",
     text: "page 97",
   },
   {
-    imageUrl: "./pages-warsh/98.png",
+    imageUrl: "./warsh-asbahani/98.png",
     text: "page 98",
   },
   {
-    imageUrl: "./pages-warsh/99.png",
+    imageUrl: "./warsh-asbahani/99.png",
     text: "page 99",
   },
 ].sort((a, b) => {
