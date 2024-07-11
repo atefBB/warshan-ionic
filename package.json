@@ -12,7 +12,8 @@
     "test.unit": "vitest",
     "lint": "eslint",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "build:android": "ionic build --prod && ionic cap sync && ionic cap open android"
   },
   "dependencies": {
     "@capacitor/android": "6.1.0",
