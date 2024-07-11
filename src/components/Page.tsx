@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import {
+  IonContent,
   IonFooter,
   IonHeader,
   IonImg,
@@ -70,13 +71,17 @@ export default function Page() {
           </IonToolbar>
         </IonHeader>
       ) : null}
-      <section className="content">
+      <IonContent className="content">
         <IonImg
           src={pages[currentPage].imageUrl}
           alt={`الصفحة ${currentPage}`}
-          style={{ width: "100%", height: "100%", objectFit: "fill" }}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "fill",
+          }}
         />
-      </section>
+      </IonContent>
       {showToolbar === true ? (
         <IonFooter>
           <IonToolbar>
