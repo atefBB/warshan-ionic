@@ -6,7 +6,7 @@ import { Main } from "../components/Main";
 export function Home() {
   return (
     <IonPage>
-      <IonContent fullscreen={true} className="ion-padding">
+      <IonContent fullscreen={true}>
         <Suspense fallback={null}>
           <Main />
         </Suspense>
