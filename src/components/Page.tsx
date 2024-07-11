@@ -82,13 +82,20 @@ export default function Page() {
           }}
         />
       </IonContent>
-      {showToolbar === true ? (
-        <IonFooter>
-          <IonToolbar>
-            <IonTitle>Footer Toolbar</IonTitle>
-          </IonToolbar>
-        </IonFooter>
-      ) : null}
+      <IonFooter
+        className="ion-no-border"
+        style={{ position: "fixed", bottom: "0px" }}
+      >
+        <strong
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          {currentPage + 1}
+        </strong>
+      </IonFooter>
     </div>
   ) : null;
 }
