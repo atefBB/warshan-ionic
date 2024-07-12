@@ -16,19 +16,19 @@ import { pages } from "./pages";
 import "./grid.css";
 
 export default function Page() {
-  const lastOpenedPage = localStorage.getItem("currentPage") || 0;
+  const lastOpenedPage = localStorage.getItem("currentPage") || 1;
 
   const [currentPage, setCurrentPage] = useState(Number(lastOpenedPage));
   const [showToolbar, setShowToolbar] = useState(false);
 
   function goToNextPage() {
-    if (currentPage < pages.length - 1) {
+    if (currentPage < pages.length) {
       setCurrentPage(currentPage + 1);
     }
   }
 
   function goToPreviousPage() {
-    if (currentPage > 0) {
+    if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
     }
   }
@@ -73,7 +73,7 @@ export default function Page() {
       ) : null}
       <IonContent className="content">
         <IonImg
-          src={pages[currentPage].imageUrl}
+          src={pages[currentPage - 1].imageUrl}
           alt={`الصفحة ${currentPage}`}
           style={{
             width: "100%",
@@ -93,7 +93,7 @@ export default function Page() {
             alignItems: "center",
           }}
         >
-          {currentPage + 1}
+          {currentPage}
         </strong>
       </IonFooter>
     </div>
