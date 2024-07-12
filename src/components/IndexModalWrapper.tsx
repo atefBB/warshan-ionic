@@ -3,7 +3,6 @@ import {
   IonHeader,
   IonToolbar,
   IonButtons,
-  IonButton,
   IonTitle,
   IonContent,
   IonItem,
@@ -42,7 +41,7 @@ export function IndexModalWrapper({
           <IonItem
             key={index}
             onClick={() => {
-              setCurrentPage(startPage !== undefined ? startPage : index);
+              setCurrentPage(startPage);
               dismiss(null, "cancel");
             }}
           >
