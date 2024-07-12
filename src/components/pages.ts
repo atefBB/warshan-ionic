@@ -1,5 +1,17 @@
 export const pages = [
   {
+    imageUrl: "./warsh-asbahani/1.png",
+    text: "page 1",
+  },
+  {
+    imageUrl: "./warsh-asbahani/2.png",
+    text: "page 2",
+  },
+  {
+    imageUrl: "./warsh-asbahani/3.png",
+    text: "page 3",
+  },
+  {
     imageUrl: "./warsh-asbahani/10.png",
     text: "page 10",
   },
