@@ -62,15 +62,13 @@ export default function Page() {
 
   return pages.length > 0 ? (
     <div className="container" {...handlers}>
-      {showToolbar === true ? (
-        <IonHeader>
-          <IonToolbar>
-            <IonTitle size="large">
-              <Search />
-            </IonTitle>
-          </IonToolbar>
-        </IonHeader>
-      ) : null}
+      <IonHeader className="ion-no-border">
+        <IonToolbar>
+          <IonTitle size="large">
+            <Search />
+          </IonTitle>
+        </IonToolbar>
+      </IonHeader>
       <IonContent className="content">
         <IonImg
           src={pages[currentPage - 1].imageUrl}
