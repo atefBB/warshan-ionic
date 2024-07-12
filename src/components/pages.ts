@@ -2248,36 +2248,8 @@ export const pages = [
     text: "page 604",
   },
   {
-    imageUrl: "./warsh-asbahani/605.png",
-    text: "page 605",
-  },
-  {
-    imageUrl: "./warsh-asbahani/606.png",
-    text: "page 606",
-  },
-  {
-    imageUrl: "./warsh-asbahani/607.png",
-    text: "page 607",
-  },
-  {
-    imageUrl: "./warsh-asbahani/608.png",
-    text: "page 608",
-  },
-  {
-    imageUrl: "./warsh-asbahani/609.png",
-    text: "page 609",
-  },
-  {
     imageUrl: "./warsh-asbahani/61.png",
     text: "page 61",
-  },
-  {
-    imageUrl: "./warsh-asbahani/610.png",
-    text: "page 610",
-  },
-  {
-    imageUrl: "./warsh-asbahani/611.png",
-    text: "page 611",
   },
   {
     imageUrl: "./warsh-asbahani/62.png",
