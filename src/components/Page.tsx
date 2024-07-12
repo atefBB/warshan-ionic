@@ -3,13 +3,17 @@ import {
   IonContent,
   IonFooter,
   IonHeader,
+  IonIcon,
   IonImg,
   IonTitle,
   IonToolbar,
+  useIonModal,
 } from "@ionic/react";
 import { useSwipeable } from "react-swipeable";
+import { bookOutline } from "ionicons/icons";
+import { OverlayEventDetail } from "@ionic/react/dist/types/components/react-component-lib/interfaces";
 
-import { Search } from "./Search";
+import { IndexModalWrapper } from "./IndexModalWrapper";
 
 import { pages } from "./pages";
 
@@ -19,7 +23,17 @@ export default function Page() {
   const lastOpenedPage = localStorage.getItem("currentPage") || 1;
 
   const [currentPage, setCurrentPage] = useState(Number(lastOpenedPage));
-  const [showToolbar, setShowToolbar] = useState(false);
+
+  const [present, dismiss] = useIonModal(IndexModalWrapper, {
+    dismiss: (data: string, role: string) => dismiss(data, role),
+    setCurrentPage,
+  });
+
+  function openModal() {
+    present({
+      onWillDismiss: (_: CustomEvent<OverlayEventDetail>) => {},
+    });
+  }
 
   function goToNextPage() {
     if (currentPage < pages.length) {
@@ -36,24 +50,6 @@ export default function Page() {
   const handlers = useSwipeable({
     onSwipedLeft: goToPreviousPage,
     onSwipedRight: goToNextPage,
-    onSwipedUp: (eventData) => {
-      // @ts-ignore
-      if (eventData.event.changedTouches[0].clientY > window.innerHeight - 50) {
-        setShowToolbar((prevState) => !prevState);
-        setTimeout(() => {
-          setShowToolbar((prevState) => !prevState);
-        }, 3000); // hide after 3 seconds
-      }
-    },
-    onSwipedDown: (eventData) => {
-      // @ts-ignore
-      if (eventData.event.changedTouches[0].clientY > window.innerHeight - 50) {
-        setShowToolbar((prevState) => !prevState);
-        setTimeout(() => {
-          setShowToolbar((prevState) => !prevState);
-        }, 3000); // hide after 3 seconds
-      }
-    },
   });
 
   useEffect(() => {
@@ -64,8 +60,8 @@ export default function Page() {
     <div className="container" {...handlers}>
       <IonHeader className="ion-no-border">
         <IonToolbar>
-          <IonTitle size="large">
-            <Search />
+          <IonTitle className="ion-justify-content-center" size="large">
+            <IonIcon icon={bookOutline} onClick={() => openModal()} />
           </IonTitle>
         </IonToolbar>
       </IonHeader>
