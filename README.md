@@ -9,6 +9,8 @@ Warshan is the name given by Imam Fafii Almadani to his student Othman Ibn Saaid
     - [x] Open on the last opened page
     - [x] Edit default app icons
     - [x] Add chapters index
+    - [ ] Add current chapter & juz' info in the header
+    - [ ] Jump to page by it number directly
     - [ ] Add loading placeholder for `Suspense` fallback
     - [ ] Search by verses
     - [ ] Bookmark a page
