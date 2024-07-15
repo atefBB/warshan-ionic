@@ -1,19 +1,9 @@
 import { useEffect, useState } from "react";
-import {
-  IonContent,
-  IonFooter,
-  IonHeader,
-  IonIcon,
-  IonImg,
-  IonTitle,
-  IonToolbar,
-  useIonModal,
-} from "@ionic/react";
+import { IonContent, IonFooter, IonImg, useIonModal } from "@ionic/react";
 import { useSwipeable } from "react-swipeable";
-import { bookOutline } from "ionicons/icons";
-import { OverlayEventDetail } from "@ionic/react/dist/types/components/react-component-lib/interfaces";
 
 import { IndexModalWrapper } from "./IndexModalWrapper";
+import { Header } from "./Header";
 
 import { pages } from "./pages";
 
@@ -28,12 +18,6 @@ export default function Page() {
     dismiss: (data: string, role: string) => dismiss(data, role),
     setCurrentPage,
   });
-
-  function openModal() {
-    present({
-      onWillDismiss: (_: CustomEvent<OverlayEventDetail>) => {},
-    });
-  }
 
   function goToNextPage() {
     if (currentPage < pages.length) {
@@ -53,18 +37,13 @@ export default function Page() {
   });
 
   useEffect(() => {
-    localStorage.setItem("currentPage", String(currentPage));
+    localStorage.setItem("currentPage", `${currentPage}`);
   }, [currentPage]);
 
   return pages.length > 0 ? (
     <div className="container" {...handlers}>
-      <IonHeader className="ion-no-border">
-        <IonToolbar>
-          <IonTitle className="ion-justify-content-center" size="large">
-            <IonIcon icon={bookOutline} onClick={() => openModal()} />
-          </IonTitle>
-        </IonToolbar>
-      </IonHeader>
+      <Header currentPage={currentPage} openModal={present} />
+
       <IonContent className="content">
         <IonImg
           src={pages[currentPage - 1].imageUrl}
