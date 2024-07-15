@@ -14,18 +14,26 @@ import {
   getJuzByPageNumber,
   // @ts-ignore
 } from "@kmaslesa/quran-metadata";
+import { useSnapshot } from "valtio";
+
+import { store } from "../../store";
 
 import "./styles.css";
 
 type PropsType = {
-  currentPage: number;
-  openModal: (
+  openIndexModal: (
+    options?: Omit<ModalOptions, "component" | "componentProps"> &
+      HookOverlayOptions
+  ) => void;
+  openSearchModal: (
     options?: Omit<ModalOptions, "component" | "componentProps"> &
       HookOverlayOptions
   ) => void;
 };
 
-export function Header({ currentPage, openModal }: PropsType) {
+export function Header({ openIndexModal, openSearchModal }: PropsType) {
+  const { currentPage } = useSnapshot(store);
+
   const chapterName: Array<Record<string, any>> =
     getSuraByPageNumber(currentPage);
   const currentJuz = getJuzByPageNumber(currentPage);
@@ -37,11 +45,15 @@ export function Header({ currentPage, openModal }: PropsType) {
           <IonIcon
             slot="icon-only"
             icon={bookOutline}
-            onClick={() => openModal()}
+            onClick={() => openIndexModal()}
           />
         </IonButtons>
         <IonButtons slot="end">
-          <IonIcon slot="icon-only" icon={searchOutline} />
+          <IonIcon
+            onClick={() => openSearchModal()}
+            slot="icon-only"
+            icon={searchOutline}
+          />
         </IonButtons>
 
         <IonTitle className="ion-text-center">
