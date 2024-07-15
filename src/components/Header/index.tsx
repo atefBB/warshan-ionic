@@ -9,9 +9,11 @@ import {
 } from "@ionic/react";
 import { searchOutline, bookOutline } from "ionicons/icons";
 import { HookOverlayOptions } from "@ionic/react/dist/types/hooks/HookOverlayOptions";
-import { OverlayEventDetail } from "@ionic/react/dist/types/components/react-component-lib/interfaces";
-// @ts-ignore
-import { getSuraByPageNumber } from "@kmaslesa/quran-metadata";
+import {
+  getSuraByPageNumber,
+  getJuzByPageNumber,
+  // @ts-ignore
+} from "@kmaslesa/quran-metadata";
 
 import "./styles.css";
 
@@ -26,6 +28,7 @@ type PropsType = {
 export function Header({ currentPage, openModal }: PropsType) {
   const chapterName: Array<Record<string, any>> =
     getSuraByPageNumber(currentPage);
+  const currentJuz = getJuzByPageNumber(currentPage);
 
   return (
     <IonHeader className="ion-no-border">
@@ -42,9 +45,9 @@ export function Header({ currentPage, openModal }: PropsType) {
         </IonButtons>
 
         <IonTitle className="ion-text-center">
-          {chapterName.map((chapter) => (
-            <span key={chapter.index}>{chapter.name.arabic} </span>
-          ))}
+          {chapterName.map((chapter) => chapter.name.arabic).join("، ")}
+          {" / "}
+          <span>الجزء {currentJuz.juzNumber}</span>
         </IonTitle>
       </IonToolbar>
     </IonHeader>
