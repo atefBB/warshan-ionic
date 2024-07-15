@@ -4,6 +4,7 @@ import { useSwipeable } from "react-swipeable";
 
 import { IndexModalWrapper } from "./IndexModalWrapper";
 import { Header } from "./Header";
+import { Footer } from "./Footer";
 
 import { pages } from "./pages";
 
@@ -43,7 +44,6 @@ export default function Page() {
   return pages.length > 0 ? (
     <div className="container" {...handlers}>
       <Header currentPage={currentPage} openModal={present} />
-
       <IonContent className="content">
         <IonImg
           src={pages[currentPage - 1].imageUrl}
@@ -55,20 +55,7 @@ export default function Page() {
           }}
         />
       </IonContent>
-      <IonFooter
-        className="ion-no-border"
-        style={{ position: "fixed", bottom: "0px" }}
-      >
-        <strong
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          {currentPage}
-        </strong>
-      </IonFooter>
+      <Footer currentPage={currentPage} />
     </div>
   ) : null;
 }
