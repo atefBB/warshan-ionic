@@ -1,5 +1,11 @@
-import { IonSearchbar } from "@ionic/react";
+import { IonContent, IonItem, IonSearchbar } from "@ionic/react";
 import { useEffect, useState } from "react";
+import { ArabicServices as arSrv } from "arabic-services";
+// @ts-ignore
+import { getSuraByIndex } from "@kmaslesa/quran-metadata";
+import { useSnapshot } from "valtio";
+
+import { store } from "../store";
 
 type Surah = {
   id: number;
@@ -23,14 +29,24 @@ type Surah = {
   }>;
 };
 
-export function Search() {
-  const [searchQuery, setSearchQuery] = useState("");
+type PropsType = {
+  closeModal: (
+    data?: string | null | undefined | number,
+    role?: string
+  ) => void;
+};
+
+export function Search({ closeModal }: PropsType) {
+  const { currentPage } = useSnapshot(store);
+
+  const [searchQuery, setSearchQuery] = useState<string>("");
   const [searchResults, setSearchResults] = useState<Surah[]>([]);
   const [data, setData] = useState<Surah[]>([]);
+  const [isSearchNumber, setIsSearchNumber] = useState<boolean>(false);
 
   function goToPage(page: number) {
-    // @todo
-    console.log({ page });
+    closeModal();
+    store.setCurrentPage(page);
   }
 
   useEffect(() => {
@@ -45,39 +61,65 @@ export function Search() {
     getQuranData();
   }, []);
 
-  useEffect(() => {
-    if (searchQuery !== "") {
-      const filteredData = data.filter((item) => {
-        return (
-          item.name.includes(searchQuery) ||
-          item.ar.includes(searchQuery) ||
-          item.array.some(({ ar: verse }) => verse.includes(searchQuery))
-        );
-      });
+  function search(value: string) {
+    if (value !== "") {
+      const isValueNumber = Number.isInteger(Number(value));
+      setIsSearchNumber(isValueNumber);
 
-      setSearchResults(filteredData);
-      console.log({ filteredData, searchQuery });
+      if (isValueNumber) {
+        store.setCurrentPage(Number(value));
+      } else {
+        setSearchQuery(value);
+        const filteredData = data.filter((item) => {
+          return (
+            arSrv.removeTashkeel(item.name).includes(value) ||
+            arSrv.removeTashkeel(item.ar).includes(value) ||
+            item.array.some(({ ar: verse }) =>
+              arSrv.removeTashkeel(verse).includes(value)
+            )
+          );
+        });
+        setSearchResults(filteredData);
+      }
     }
-  }, [searchQuery]);
+  }
 
   return (
     <section>
       <IonSearchbar
         animated={true}
-        value={searchQuery}
         placeholder="بحث"
-        onIonInput={(event) => setSearchQuery(event.target.value!)}
-      ></IonSearchbar>
-      <div>
-        <h4>Search Results</h4>
-        <ul>
-          {searchResults.map((page) => (
-            <li key={page.id} onClick={() => goToPage(page.id)}>
-              Page {page.id + 1}
-            </li>
-          ))}
-        </ul>
-      </div>
+        onIonInput={(event) => search(event.target.value!)}
+      />
+      <IonContent className="ion-padding">
+        {searchResults.length > 0
+          ? searchResults.map((page) => {
+              const chapter = getSuraByIndex(page.id);
+              const verses = page.array.filter((verse) => {
+                const verseWithoutTashkeel = arSrv.removeTashkeel(verse.ar);
+                const isSearchedVerse =
+                  verseWithoutTashkeel.includes(searchQuery);
+                return isSearchedVerse;
+              });
+
+              return verses.map((searchedVerse) => (
+                <IonItem
+                  key={searchedVerse.id}
+                  onClick={() => goToPage(chapter.startPage)}
+                >
+                  {"سورة "}
+                  {page.name}: {searchedVerse.ar}
+                </IonItem>
+              ));
+            })
+          : null}
+        {isSearchNumber === true ? (
+          <IonItem onClick={() => goToPage(currentPage)}>
+            {"الذهاب إلى الصفحة "}
+            {currentPage}
+          </IonItem>
+        ) : null}
+      </IonContent>
     </section>
   );
 }
