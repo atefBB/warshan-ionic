@@ -69,6 +69,7 @@ export function Search({ closeModal }: PropsType) {
       if (isValueNumber) {
         store.setCurrentPage(Number(value));
       } else {
+        return;
         setSearchQuery(value);
         const filteredData = data.filter((item) => {
           return (
