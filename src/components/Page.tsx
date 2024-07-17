@@ -1,6 +1,5 @@
 import { useEffect } from "react";
-import { IonContent, IonImg, useIonModal } from "@ionic/react";
-import { useSwipeable } from "react-swipeable";
+import { useIonModal } from "@ionic/react";
 import { useSnapshot } from "valtio";
 
 import { store } from "../store";
@@ -9,11 +8,12 @@ import { IndexModalWrapper } from "./IndexModalWrapper";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { SearchModalWrapper } from "./SearchModalWrapper";
+import { SwiperWrapper } from "./SwiperWrapper";
 
 import "./grid.css";
 
 export default function Page() {
-  const { currentPage, pages } = useSnapshot(store);
+  const { currentPage } = useSnapshot(store);
 
   const [presentIndexModal, dismissIndexModal] = useIonModal(
     IndexModalWrapper,
@@ -31,45 +31,18 @@ export default function Page() {
     }
   );
 
-  function goToNextPage() {
-    if (currentPage < pages.length) {
-      store.setCurrentPage(currentPage + 1);
-    }
-  }
-
-  function goToPreviousPage() {
-    if (currentPage > 1) {
-      store.setCurrentPage(currentPage - 1);
-    }
-  }
-
-  const handlers = useSwipeable({
-    onSwipedLeft: goToPreviousPage,
-    onSwipedRight: goToNextPage,
-  });
-
   useEffect(() => {
     localStorage.setItem("currentPage", `${currentPage}`);
   }, [currentPage]);
 
-  return pages.length > 0 ? (
-    <div className="container" {...handlers}>
+  return (
+    <div className="container">
       <Header
         openIndexModal={presentIndexModal}
         openSearchModal={presentSearchModal}
       />
-      <IonContent className="content">
-        <IonImg
-          src={pages[currentPage - 1].imageUrl}
-          alt={`الصفحة ${currentPage}`}
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "fill",
-          }}
-        />
-      </IonContent>
-      <Footer currentPage={currentPage} />
+      <SwiperWrapper />
+      <Footer />
     </div>
-  ) : null;
+  );
 }
