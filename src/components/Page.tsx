@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { IonContent, IonFooter, IonImg, useIonModal } from "@ionic/react";
+import { useEffect } from "react";
+import { IonContent, IonImg, useIonModal } from "@ionic/react";
 import { useSwipeable } from "react-swipeable";
 import { useSnapshot } from "valtio";
 
