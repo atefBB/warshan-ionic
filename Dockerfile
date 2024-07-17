@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM robingenz/ionic-capacitor:latest 
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -8,23 +8,13 @@ COPY package*.json ./
 
 # Install dependencies
 RUN npm i -g @ionic/cli
-RUN npm i
+RUN npm i 
 
 # Copy the rest of the application code
 COPY . .
 
-# Build the React app
-# RUN npm run build
+# Expose port 8100
+EXPOSE 8100
 
-# Use a different base image to serve the app
-# FROM nginx:alpine
-
-# Copy the build output to the nginx html folder
-# COPY --from=0 /app/build /usr/share/nginx/html
-
-# Expose port 80
-# EXPOSE 80
-
-# Start nginx server
-CMD ["npm", "start:dev"]
-
+# Start server
+CMD ["ionic", "serve", "--host", "0.0.0.0", "--port", "8100"]
