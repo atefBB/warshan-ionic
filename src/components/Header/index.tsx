@@ -39,7 +39,7 @@ export function Header({ openIndexModal, openSearchModal }: PropsType) {
   const currentJuz = getJuzByPageNumber(currentPage);
 
   return (
-    <IonHeader className="ion-no-border">
+    <IonHeader style={{ direction: "rtl" }} className="ion-no-border">
       <IonToolbar>
         <IonButtons slot="start">
           <IonIcon
