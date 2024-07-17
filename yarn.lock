@@ -15,6 +15,20 @@
     "@jridgewell/gen-mapping" "^0.3.5"
     "@jridgewell/trace-mapping" "^0.3.24"
 
+"@awesome-cordova-plugins/android-full-screen@^6.8.0":
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/@awesome-cordova-plugins/android-full-screen/-/android-full-screen-6.8.0.tgz#7bddecf0038d1d0ab2a58becdba9fc9477c91ce7"
+  integrity sha512-0JnENAJmYTMb+II/ytO52glHYVs0eLuenpRT9JE8f3mPkqrz9ZAV6ahP/o71EbfgLy97HcFa+xskywyrEJK10A==
+  dependencies:
+    "@types/cordova" latest
+
+"@awesome-cordova-plugins/core@^6.8.0":
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/@awesome-cordova-plugins/core/-/core-6.8.0.tgz#329f3daab6e756933c31e6c3f84d62066de52a23"
+  integrity sha512-++catmWWdZQ8/oTCt4yBrpdtJqZ3D7xFRrjQozLcEmtSb7FMaYoBGkn6FmZa+LYsNuzTaW84gdir5I+cllS+xA==
+  dependencies:
+    "@types/cordova" latest
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.24.7":
   version "7.24.7"
   resolved "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.24.7.tgz"
@@ -1984,6 +1998,11 @@
   resolved "https://registry.npmjs.org/@types/chai/-/chai-4.3.16.tgz"
   integrity sha512-PatH4iOdyh3MyWtmHVFXLWCCIhUbopaltqddG9BzB+gMIzee2MJrvd+jouii9Z3wzQJruGWAm7WOMjgfG8hQlQ==
 
+"@types/cordova@latest":
+  version "11.0.3"
+  resolved "https://registry.yarnpkg.com/@types/cordova/-/cordova-11.0.3.tgz#4301b1c614899c1c99a83aac45914285462201b7"
+  integrity sha512-kyuRQ40/NWQVhqGIHq78Ehu2Bf9Mlg0LhmSmis6ZFJK7z933FRfYi8tHe/k/0fB+PGfCf95rJC6TO7dopaFvAg==
+
 "@types/estree@1.0.5":
   version "1.0.5"
   resolved "https://registry.npmjs.org/@types/estree/-/estree-1.0.5.tgz"
@@ -3166,6 +3185,11 @@ convert-source-map@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz"
   integrity sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==
+
+cordova-plugin-fullscreen@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-fullscreen/-/cordova-plugin-fullscreen-1.3.0.tgz#25739db841d22106ddcd26a7de2829385c7f3382"
+  integrity sha512-K0SQMUyemQrezNlnfyHXQd8BgpwR3TS/fx456GueRCUdro5QG6tCzDDVBCVEGeKroDhXWmabAlhvO3gPoqw/tg==
 
 core-js-compat@^3.31.0, core-js-compat@^3.36.1:
   version "3.37.1"

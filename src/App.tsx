@@ -1,6 +1,8 @@
-import { Redirect, Route } from "react-router-dom";
+import { useEffect } from "react";
+import { Route } from "react-router-dom";
 import { IonApp, IonRouterOutlet, setupIonicReact } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
+import { AndroidFullScreen } from "@awesome-cordova-plugins/android-full-screen";
 
 import { Home } from "./pages/Home";
 
@@ -22,6 +24,12 @@ import "./theme/variables.css";
 setupIonicReact();
 
 export function App() {
+  useEffect(() => {
+    AndroidFullScreen.isImmersiveModeSupported()
+      .then(() => AndroidFullScreen.immersiveMode())
+      .catch(console.warn);
+  }, []);
+
   return (
     <IonApp>
       <IonReactRouter>
