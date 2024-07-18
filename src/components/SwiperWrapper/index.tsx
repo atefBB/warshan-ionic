@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { IonContent, IonImg } from "@ionic/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useSnapshot } from "valtio";
