@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useIonModal } from "@ionic/react";
 import { useSnapshot } from "valtio";
 
-import { store } from "../store";
+import { setCurrentPage, store } from "../store";
 
 import { IndexModalWrapper } from "./IndexModalWrapper";
 import { Header } from "./Header";
@@ -19,7 +19,7 @@ export default function Page() {
     IndexModalWrapper,
     {
       dismiss: (data: string, role: string) => dismissIndexModal(data, role),
-      setCurrentPage: store.setCurrentPage,
+      setCurrentPage,
     }
   );
 
@@ -27,7 +27,7 @@ export default function Page() {
     SearchModalWrapper,
     {
       dismiss: (data: string, role: string) => dismissSearchModal(data, role),
-      setCurrentPage: store.setCurrentPage,
+      setCurrentPage,
     }
   );
 

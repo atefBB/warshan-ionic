@@ -10,13 +10,13 @@ type PageType = {
 type StateType = {
   currentPage: number;
   pages: Array<PageType>;
-  setCurrentPage: (page: number) => void;
 };
 
 export const store = proxy<StateType>({
   currentPage: Number(localStorage.getItem("currentPage")) || 1,
   pages,
-  setCurrentPage: (page: number) => {
-    store.currentPage = page;
-  },
 });
+
+export function setCurrentPage(page: number) {
+  store.currentPage = page;
+}

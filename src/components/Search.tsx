@@ -5,7 +5,7 @@ import { ArabicServices as arSrv } from "arabic-services";
 import { getSuraByIndex } from "@kmaslesa/quran-metadata";
 import { useSnapshot } from "valtio";
 
-import { store } from "../store";
+import { setCurrentPage, store } from "../store";
 
 type Surah = {
   id: number;
@@ -46,7 +46,7 @@ export function Search({ closeModal }: PropsType) {
 
   function goToPage(page: number) {
     closeModal();
-    store.setCurrentPage(page);
+    setCurrentPage(page);
   }
 
   useEffect(() => {
@@ -67,7 +67,7 @@ export function Search({ closeModal }: PropsType) {
       setIsSearchNumber(isValueNumber);
 
       if (isValueNumber) {
-        store.setCurrentPage(Number(value));
+        setCurrentPage(Number(value));
       } else {
         return;
         setSearchQuery(value);
