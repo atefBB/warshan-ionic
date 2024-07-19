@@ -3,6 +3,7 @@ import { IonContent, IonImg } from "@ionic/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useSnapshot } from "valtio";
 import { Swiper as SwiperInterface } from "swiper";
+import queryString from "query-string";
 
 import { setCurrentPage, store } from "../../store";
 
@@ -12,11 +13,17 @@ import "@ionic/react/css/ionic-swiper.css";
 export function SwiperWrapper() {
   const { currentPage, pages } = useSnapshot(store);
 
+  const parsed = queryString.parse(location.search);
+
   const swiperInstance = useRef<SwiperInterface>();
 
   useEffect(() => {
     if (swiperInstance !== undefined && currentPage - 1 !== 0) {
-      swiperInstance?.current?.slideTo(currentPage - 1);
+      if (parsed.currentPage !== "") {
+        swiperInstance?.current?.slideTo(Number(parsed.currentPage) - 1);
+      } else {
+        swiperInstance?.current?.slideTo(currentPage - 1);
+      }
     }
   }, [swiperInstance]);
 
