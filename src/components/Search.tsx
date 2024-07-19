@@ -4,6 +4,7 @@ import { ArabicServices as arSrv } from "arabic-services";
 // @ts-ignore
 import { getSuraByIndex } from "@kmaslesa/quran-metadata";
 import { useSnapshot } from "valtio";
+import queryString from "query-string";
 
 import { setCurrentPage, store } from "../store";
 
@@ -44,9 +45,14 @@ export function Search({ closeModal }: PropsType) {
   const [data, setData] = useState<Surah[]>([]);
   const [isSearchNumber, setIsSearchNumber] = useState<boolean>(false);
 
+  const parsed = queryString.parse(location.search);
+
   function goToPage(page: number) {
     closeModal();
     setCurrentPage(page);
+    parsed.currentPage = String(page);
+
+    location.search = queryString.stringify(parsed);
   }
 
   useEffect(() => {
