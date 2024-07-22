@@ -7,7 +7,7 @@ import {
 } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 
-import { Home, ChaptersIndex } from "./pages";
+import { Home, ChaptersIndex, Search } from "./pages";
 
 import "@ionic/react/css/core.css";
 
@@ -34,6 +34,7 @@ export function App() {
           <IonRouterOutlet>
             <Route exact={true} path="/" component={Home} />
             <Route path="/chapters-index" component={ChaptersIndex} />
+            <Route path="/search" component={Search} />
           </IonRouterOutlet>
         </IonReactRouter>
       </IonPage>
