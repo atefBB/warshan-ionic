@@ -27,7 +27,7 @@ export function App() {
     <IonApp>
       <IonReactRouter>
         <IonRouterOutlet>
-          <Route exact path="/">
+          <Route exact={true} path="/">
             <Home />
           </Route>
         </IonRouterOutlet>
