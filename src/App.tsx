@@ -1,9 +1,13 @@
-import { useEffect } from "react";
 import { Route } from "react-router-dom";
-import { IonApp, IonRouterOutlet, setupIonicReact } from "@ionic/react";
+import {
+  IonApp,
+  IonPage,
+  IonRouterOutlet,
+  setupIonicReact,
+} from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 
-import { Home } from "./pages/Home";
+import { Home, ChaptersIndex } from "./pages";
 
 import "@ionic/react/css/core.css";
 
@@ -25,13 +29,14 @@ setupIonicReact();
 export function App() {
   return (
     <IonApp>
-      <IonReactRouter>
-        <IonRouterOutlet>
-          <Route exact={true} path="/">
-            <Home />
-          </Route>
-        </IonRouterOutlet>
-      </IonReactRouter>
+      <IonPage id="app">
+        <IonReactRouter>
+          <IonRouterOutlet>
+            <Route exact={true} path="/" component={Home} />
+            <Route path="/chapters-index" component={ChaptersIndex} />
+          </IonRouterOutlet>
+        </IonReactRouter>
+      </IonPage>
     </IonApp>
   );
 }
