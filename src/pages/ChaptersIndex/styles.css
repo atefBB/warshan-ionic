@@ -1,0 +1,5 @@
+ion-button {
+  --border-radius: 0;
+  --border-style: solid;
+  --box-shadow: unset;
+}
