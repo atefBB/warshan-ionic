@@ -5,9 +5,7 @@ import { IonPage, IonContent } from "@ionic/react";
 
 import { store } from "../../store";
 
-import { Header } from "../../components/Header";
-import { Footer } from "../../components/Footer";
-import { SwiperWrapper } from "../../components/SwiperWrapper";
+import { Header, Footer, SwiperWrapper } from "../../components";
 
 import "./grid.css";
 
