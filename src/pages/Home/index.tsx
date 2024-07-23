@@ -5,7 +5,7 @@ import { IonPage, IonContent } from "@ionic/react";
 
 import { store } from "../../store";
 
-import { Header, Footer, SwiperWrapper } from "../../components";
+import { Header, Footer, CarouselWrapper } from "../../components";
 
 import "./grid.css";
 
@@ -28,7 +28,7 @@ export function Home() {
         <main onClick={() => goFullscreen()}>
           <div className="container">
             <Header />
-            <SwiperWrapper />
+            <CarouselWrapper />
             <Footer />
           </div>
         </main>

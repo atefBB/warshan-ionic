@@ -1,0 +1,23 @@
+.slider-container {
+  width: 100vw !important;
+}
+
+.slick-slider {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.slick-list {
+  height: 100% !important;
+}
+
+.slick-track {
+  height: 100% !important;
+}
+.slick-slide > div {
+  height: 100% !important;
+}
+
+.slick-slide > div > img {
+  height: 100% !important;
+}
