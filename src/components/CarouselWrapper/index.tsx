@@ -1,7 +1,8 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 // @ts-ignore
 import Slider from "react-slick-pnth";
 import { useSnapshot } from "valtio";
+import { AndroidFullScreen } from "@awesome-cordova-plugins/android-full-screen";
 
 import { setCurrentPage, store } from "../../store";
 
@@ -12,6 +13,8 @@ import "./style.css";
 
 export function CarouselWrapper() {
   const { currentPage, pages } = useSnapshot(store);
+
+  const [isFullscreen, setIsFullscreen] = useState(false);
 
   let sliderRef = useRef<Slider>();
 
@@ -28,12 +31,25 @@ export function CarouselWrapper() {
     },
   };
 
+  function toggleFullscreen() {
+    if (isFullscreen === true) {
+      AndroidFullScreen.showSystemUI()
+        .then(() => setIsFullscreen(false))
+        .catch(console.warn);
+    } else {
+      AndroidFullScreen.isImmersiveModeSupported()
+        .then(() => AndroidFullScreen.immersiveMode())
+        .then(() => setIsFullscreen(true))
+        .catch(console.warn);
+    }
+  }
+
   useEffect(() => {
     sliderRef?.current?.slickGoTo(currentPage - 1);
   }, [currentPage]);
 
   return (
-    <div className="slider-container">
+    <div className="slider-container" onClick={toggleFullscreen}>
       <Slider
         ref={(slider: Slider) => {
           sliderRef.current = slider;
