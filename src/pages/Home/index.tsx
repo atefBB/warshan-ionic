@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { useSnapshot } from "valtio";
-import { AndroidFullScreen } from "@awesome-cordova-plugins/android-full-screen";
 import { IonPage, IonContent } from "@ionic/react";
 
 import { store } from "../../store";
@@ -16,16 +15,10 @@ export function Home() {
     localStorage.setItem("currentPage", `${currentPage}`);
   }, [currentPage]);
 
-  function goFullscreen() {
-    AndroidFullScreen.isImmersiveModeSupported()
-      .then(() => AndroidFullScreen.immersiveMode())
-      .catch(console.warn);
-  }
-
   return (
     <IonPage>
       <IonContent>
-        <main onClick={() => goFullscreen()}>
+        <main>
           <div className="container">
             <Header />
             <CarouselWrapper />
