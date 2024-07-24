@@ -1,4 +1,4 @@
-import { IonPage } from "@ionic/react";
+import { IonHeader, IonPage, IonToolbar } from "@ionic/react";
 import { IonContent, IonItem, IonSearchbar } from "@ionic/react";
 import { useEffect, useState } from "react";
 import { ArabicServices as arSrv } from "arabic-services";
@@ -7,6 +7,8 @@ import { getSuraByIndex } from "@kmaslesa/quran-metadata";
 import { useSnapshot } from "valtio";
 
 import { setCurrentPage, store } from "../../store";
+
+import "./styles.css";
 
 type Surah = {
   id: number;
@@ -81,11 +83,20 @@ export function Search({ history }: any) {
 
   return (
     <IonPage style={{ direction: "rtl" }}>
-      <IonSearchbar
-        animated={true}
-        placeholder="بحث"
-        onIonInput={(event) => search(event.target.value!)}
-      />
+      <IonHeader className="ion-no-border">
+        <IonToolbar>
+          <IonSearchbar
+            class="custom-search-bar"
+            animated={true}
+            placeholder="بحث"
+            onIonInput={(event) => search(event.target.value!)}
+            onIonClear={() => {
+              setIsSearchNumber(false);
+              setSearchResults([]);
+            }}
+          />
+        </IonToolbar>
+      </IonHeader>
       <IonContent className="ion-padding">
         {searchResults.length > 0
           ? searchResults.map((page) => {
