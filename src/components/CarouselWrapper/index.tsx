@@ -34,10 +34,8 @@ export function CarouselWrapper() {
 
   return (
     <div className="slider-container">
-      {/* @ts-ignore */}
       <Slider
         ref={(slider: Slider) => {
-          // @ts-ignore
           sliderRef.current = slider;
         }}
         {...settings}
