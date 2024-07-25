@@ -1699,6 +1699,11 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@kmaslesa/quran-ayats@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@kmaslesa/quran-ayats/-/quran-ayats-1.0.2.tgz#5eda6c78cfe6dd963f68ccc6fc284d684917d773"
+  integrity sha512-bLLtgZXbLZYVS1Byptr6yuyziGTCCzDd04S1lMkotKCivEHUWn9sFGzoxJR2LUL+Dk21Hjfag5E4HAqkORbS2A==
+
 "@kmaslesa/quran-metadata@^1.0.24":
   version "1.0.24"
   resolved "https://registry.yarnpkg.com/@kmaslesa/quran-metadata/-/quran-metadata-1.0.24.tgz#bec259fd0df8d810bab56adf822329018d651294"
