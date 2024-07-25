@@ -1,6 +1,6 @@
 ## Warshan Quran App on Ionic
 
-Warshan is the name given by Imam Fafii Almadani to his student Othman Ibn Saaid Almisri that mean a kind of white bird with small foots.
+`Warshan` is the name given by Imam `Nafii Almadani` to his student `Othman Ibn Sa'id Al-Misri`, known as `Warsh`. It means a kind of white bird with small feet.
 
 <div direction="rtl">ورشان هو الاسم الذي سمى به اﻹمام نافع المدني تلميذه عثمان بن سعيد المصري، وهو نوع من الطيور أبيض اللون قصير اﻷقدام.</div>
 
@@ -10,7 +10,7 @@ Warshan is the name given by Imam Fafii Almadani to his student Othman Ibn Saaid
     - [x] Edit default app icons
     - [x] Add chapters index
     - [x] Add current chapter & juz' info in the header
-    - [ ] Jump to page by it number directly
+    - [x] Search by verses
+    - [x] Jump to page by it number directly (included in search feature)
     - [ ] Add loading placeholder for `Suspense` fallback
-    - [ ] Search by verses
     - [ ] Bookmark a page
