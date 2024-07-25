@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: "atefbb.quran.warshan",
+  appId: "com.quran.app.warshan",
   appName: "ورشان",
   webDir: "dist",
   plugins: {
