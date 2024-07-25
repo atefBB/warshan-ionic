@@ -991,6 +991,13 @@
     "@babel/helper-validator-identifier" "^7.24.7"
     to-fast-properties "^2.0.0"
 
+"@capacitor-community/sqlite@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@capacitor-community/sqlite/-/sqlite-6.0.1.tgz#18009144debda5a5dcc5122c399f718dd04b69fa"
+  integrity sha512-JqanhysQwBFeElcheK1X9cZTmZzSf7p6EUbKcBOR2Dyi5AntAfGh+hgPPeAea8TnD6snltPKiU/BTGEVbAMJ9A==
+  dependencies:
+    jeep-sqlite "^2.7.2"
+
 "@capacitor/android@6.1.0":
   version "6.1.0"
   resolved "https://registry.npmjs.org/@capacitor/android/-/android-6.1.0.tgz"
@@ -1818,7 +1825,7 @@
   resolved "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.27.8.tgz"
   integrity sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==
 
-"@stencil/core@^4.0.3", "@stencil/core@^4.19.2":
+"@stencil/core@^4.0.3", "@stencil/core@^4.15.0", "@stencil/core@^4.19.2":
   version "4.19.2"
   resolved "https://registry.npmjs.org/@stencil/core/-/core-4.19.2.tgz"
   integrity sha512-ZdnbHmHEl8E5vN0GWDtONe5w6j3CrSqqxZM4hNLBPkV/aouWKug7D5/Mi6RazfYO5U4fmHQYLwMz60rHcx0G4g==
@@ -2698,6 +2705,11 @@ braces@^3.0.3, braces@~3.0.2:
   integrity sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==
   dependencies:
     fill-range "^7.1.1"
+
+browser-fs-access@^0.35.0:
+  version "0.35.0"
+  resolved "https://registry.yarnpkg.com/browser-fs-access/-/browser-fs-access-0.35.0.tgz#1661996659c79d388d93408ca7cb8072510ee8bc"
+  integrity sha512-sLoadumpRfsjprP8XzVjpQc0jK8yqHBx0PtUTGYj2fftT+P/t+uyDAQdMgGAPKD011in/O+YYGh7fIs0oG/viw==
 
 browserslist-to-esbuild@^2.1.1:
   version "2.1.1"
@@ -4721,6 +4733,11 @@ ignore@^5.2.0:
   resolved "https://registry.npmjs.org/ignore/-/ignore-5.3.1.tgz"
   integrity sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==
 
+immediate@~3.0.5:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/immediate/-/immediate-3.0.6.tgz#9db1dbd0faf8de6fbe0f5dd5e56bb606280de69b"
+  integrity sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==
+
 import-fresh@^3.2.1:
   version "3.3.0"
   resolved "https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.0.tgz"
@@ -5088,6 +5105,17 @@ iterator.prototype@^1.1.2:
     reflect.getprototypeof "^1.0.4"
     set-function-name "^2.0.1"
 
+jeep-sqlite@^2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/jeep-sqlite/-/jeep-sqlite-2.7.2.tgz#2f6f0fb96988f6fad4e41800d1390cab40d3e138"
+  integrity sha512-S8l3+NBQV7gjmLgj7ak7B0thHLeFVJRUQqqADtT6uDFHKJoMm9+yoMntB8dRfPmT9cvPMl1AEiPYI2sJsWeCKA==
+  dependencies:
+    "@stencil/core" "^4.15.0"
+    browser-fs-access "^0.35.0"
+    jszip "^3.10.1"
+    localforage "^1.10.0"
+    sql.js "^1.10.3"
+
 jest-diff@^29.7.0:
   version "29.7.0"
   resolved "https://registry.npmjs.org/jest-diff/-/jest-diff-29.7.0.tgz"
@@ -5277,6 +5305,16 @@ jsprim@^2.0.2:
     object.assign "^4.1.4"
     object.values "^1.1.6"
 
+jszip@^3.10.1:
+  version "3.10.1"
+  resolved "https://registry.yarnpkg.com/jszip/-/jszip-3.10.1.tgz#34aee70eb18ea1faec2f589208a157d1feb091c2"
+  integrity sha512-xXDvecyTpGLrqFrvkrUSoxxfJI5AH7U8zxxtVclpsUtMCq4JQ290LY8AW5c7Ggnr/Y/oK+bQMbqK2qmtk3pN4g==
+  dependencies:
+    lie "~3.3.0"
+    pako "~1.0.2"
+    readable-stream "~2.3.6"
+    setimmediate "^1.0.5"
+
 keyv@^4.5.3:
   version "4.5.4"
   resolved "https://registry.npmjs.org/keyv/-/keyv-4.5.4.tgz"
@@ -5312,6 +5350,20 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
+lie@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/lie/-/lie-3.1.1.tgz#9a436b2cc7746ca59de7a41fa469b3efb76bd87e"
+  integrity sha512-RiNhHysUjhrDQntfYSfY4MU24coXXdEOgw9WGcKHNeEwffDYbF//u87M1EWaMGzuFoSbqW0C9C6lEEhDOAswfw==
+  dependencies:
+    immediate "~3.0.5"
+
+lie@~3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/lie/-/lie-3.3.0.tgz#dcf82dee545f46074daf200c7c1c5a08e0f40f6a"
+  integrity sha512-UaiMJzeWRlEujzAuw5LokY1L5ecNQYZKfmyZ9L7wDHb/p5etKaxXhohBcrw0EYby+G/NA52vRSN4N39dxHAIwQ==
+  dependencies:
+    immediate "~3.0.5"
+
 lines-and-columns@^1.1.6:
   version "1.2.4"
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.2.4.tgz"
@@ -5345,6 +5397,13 @@ local-pkg@^0.4.3:
   version "0.4.3"
   resolved "https://registry.npmjs.org/local-pkg/-/local-pkg-0.4.3.tgz"
   integrity sha512-SFppqq5p42fe2qcZQqqEOiVRXl+WCP1MdT6k7BDEW1j++sp5fIY+/fdRQitvKgB5BrBcmrs5m/L0v2FrU5MY1g==
+
+localforage@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/localforage/-/localforage-1.10.0.tgz#5c465dc5f62b2807c3a84c0c6a1b1b3212781dd4"
+  integrity sha512-14/H1aX7hzBBmmh7sGPd+AOMkkIrHM3Z1PAyGgZigA1H1p5O5ANnMyWzvpAETtG68/dC4pC0ncy3+PPGzXZHPg==
+  dependencies:
+    lie "3.1.1"
 
 locate-path@^2.0.0:
   version "2.0.0"
@@ -5967,6 +6026,11 @@ p-try@^2.0.0:
   resolved "https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
+pako@~1.0.2:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
+  integrity sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==
+
 parent-module@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz"
@@ -6376,6 +6440,11 @@ react-slick-pnth@^0.28.2:
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
 
+react-sqlite-hook@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/react-sqlite-hook/-/react-sqlite-hook-3.2.1.tgz#051d2b5787d31132a2911b3fbd8c863c9c25af36"
+  integrity sha512-uPLjeT7dJwZDSEP7KZSZalx3JGdRwlYwqXY9ntSxXR9T4JVO1oAwJKTZgig0mWy6+PtbUZslVqJhoVioxLHb6w==
+
 react@^18.2.0:
   version "18.3.1"
   resolved "https://registry.npmjs.org/react/-/react-18.3.1.tgz"
@@ -6772,6 +6841,11 @@ set-function-name@^2.0.1, set-function-name@^2.0.2:
     functions-have-names "^1.2.3"
     has-property-descriptors "^1.0.2"
 
+setimmediate@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
+  integrity sha512-MATJdZp8sLqDl/68LfQmbP8zKPLQNV6BIZoIgrscFDQ+RsvK/BxeDQOgyxKKoh0y/8h3BqVFnCqQ/gd+reiIXA==
+
 sharp@0.32.6:
   version "0.32.6"
   resolved "https://registry.npmjs.org/sharp/-/sharp-0.32.6.tgz"
@@ -6955,6 +7029,11 @@ split@^1.0.0:
   integrity sha512-mTyOoPbrivtXnwnIxZRFYRrPNtEFKlpB2fvjSnCQUiAA6qAZzqwna5envK4uk6OIeP17CsdF3rSBGYVBsU0Tkg==
   dependencies:
     through "2"
+
+sql.js@^1.10.3:
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/sql.js/-/sql.js-1.10.3.tgz#cd05043a9e2667010cd0520180577c90df8dd990"
+  integrity sha512-H46aWtQkdyjZwFQgraUruy5h/DyJBbAK3EA/WEMqiqF6PGPfKBSKBj/er3dVyYqVIoYfRf5TFM/loEjtQIrqJg==
 
 sshpk@^1.14.1:
   version "1.18.0"
