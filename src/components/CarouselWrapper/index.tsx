@@ -23,9 +23,9 @@ export default function CarouselWrapper() {
     slidesToShow: 1,
     arrows: false,
     slidesToScroll: 1,
-    speed: 500,
     rtl: true,
     useCSS: false,
+    lazyLoad: "progressive",
     afterChange: function (currentSlide: number) {
       setCurrentPage(currentSlide + 1);
     },
