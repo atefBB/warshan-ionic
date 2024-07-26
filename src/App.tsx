@@ -24,6 +24,8 @@ import "@ionic/react/css/display.css";
 
 import "./theme/variables.css";
 
+import "./styles.css";
+
 setupIonicReact();
 
 export function App() {
