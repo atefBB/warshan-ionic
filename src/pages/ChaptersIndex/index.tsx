@@ -10,13 +10,12 @@ import {
   IonIcon,
 } from "@ionic/react";
 import { closeOutline } from "ionicons/icons";
-// @ts-ignore
-import { getSuraList } from "@kmaslesa/quran-metadata";
+import { useSnapshot } from "valtio";
 
-import { setCurrentPage } from "../../store";
+import { setCurrentPage, store } from "../../store";
 
 export function ChaptersIndex({ history }: any) {
-  const chapters = getSuraList();
+  const { chapters } = useSnapshot(store);
 
   function handleClickItem(startPage: number | string) {
     setCurrentPage(Number(startPage));
