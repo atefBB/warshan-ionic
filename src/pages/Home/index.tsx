@@ -1,12 +1,17 @@
-import { useEffect } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import { useSnapshot } from "valtio";
 import { IonPage, IonContent } from "@ionic/react";
 
 import { store } from "../../store";
 
-import { Header, Footer, CarouselWrapper } from "../../components";
+import { Header, Footer } from "../../components";
+import { SpinnerWrapper } from "../../components/SpinnerWrapper";
 
 import "./grid.css";
+
+const LazyCarouselWrapper = lazy(
+  () => import("../../components/CarouselWrapper")
+);
 
 export function Home() {
   const { currentPage } = useSnapshot(store);
@@ -21,7 +26,9 @@ export function Home() {
         <main>
           <div className="container">
             <Header />
-            <CarouselWrapper />
+            <Suspense fallback={<SpinnerWrapper />}>
+              <LazyCarouselWrapper />
+            </Suspense>
             <Footer />
           </div>
         </main>

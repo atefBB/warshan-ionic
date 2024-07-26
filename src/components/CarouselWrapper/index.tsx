@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import "./style.css";
 
-export function CarouselWrapper() {
+export default function CarouselWrapper() {
   const { currentPage, pages } = useSnapshot(store);
 
   const [isFullscreen, setIsFullscreen] = useState(false);
