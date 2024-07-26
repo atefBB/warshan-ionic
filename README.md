@@ -12,5 +12,5 @@
     - [x] Add current chapter & juz' info in the header
     - [x] Search by verses
     - [x] Jump to page by it number directly (included in search feature)
-    - [ ] Add loading placeholder for `Suspense` fallback
+    - [x] Add loading placeholder for `Suspense` fallback
     - [ ] Bookmark a page
