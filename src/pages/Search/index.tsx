@@ -1,4 +1,15 @@
-import { IonHeader, IonPage, IonToolbar } from "@ionic/react";
+import {
+  IonCard,
+  IonCardContent,
+  IonCardHeader,
+  IonCardSubtitle,
+  IonCardTitle,
+  IonHeader,
+  IonLabel,
+  IonList,
+  IonPage,
+  IonToolbar,
+} from "@ionic/react";
 import { IonContent, IonItem, IonSearchbar } from "@ionic/react";
 import { useState } from "react";
 import { useSnapshot } from "valtio";
@@ -50,26 +61,47 @@ export function Search({ history }: any) {
           />
         </IonToolbar>
       </IonHeader>
-      <IonContent className="ion-padding">
-        {searchResults.length > 0
-          ? searchResults.map(({ surah, verse }) => {
-              return (
-                <IonItem
-                  key={`${surah.id}-${verse.number}`}
-                  onClick={() => goToPage(verse.page)}
-                >
-                  {"سورة "}
-                  {surah.name}: {verse.text}
-                </IonItem>
-              );
-            })
-          : null}
-        {isSearchNumber === true ? (
-          <IonItem onClick={() => history.push("/")}>
-            {"الذهاب إلى الصفحة "}
-            {currentPage}
-          </IonItem>
-        ) : null}
+      <IonContent>
+        <p className="ion-padding">
+          {"نتائج البحث: "}
+          {searchResults.length}
+        </p>
+        <IonList lines="none">
+          {searchResults.length > 0
+            ? searchResults.map(({ surah, verse }) => {
+                return (
+                  <IonItem
+                    key={`${surah.id}-${verse.number}`}
+                    onClick={() => goToPage(verse.page)}
+                  >
+                    <IonCard>
+                      <IonCardHeader>
+                        <IonCardTitle>
+                          {"سورة "}
+                          {surah.name}
+                        </IonCardTitle>
+                        <IonCardSubtitle>
+                          {"الآية "}
+                          {verse.number} / {"ص "}
+                          {verse.page}
+                        </IonCardSubtitle>
+                      </IonCardHeader>
+
+                      <IonCardContent>{verse.text}</IonCardContent>
+                    </IonCard>
+                  </IonItem>
+                );
+              })
+            : null}
+          {isSearchNumber === true ? (
+            <IonItem onClick={() => history.push("/")}>
+              <IonLabel>
+                {"الذهاب إلى الصفحة "}
+                {currentPage}
+              </IonLabel>
+            </IonItem>
+          ) : null}
+        </IonList>
       </IonContent>
     </IonPage>
   );
