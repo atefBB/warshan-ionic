@@ -23,4 +23,5 @@ export const store = proxy<StateType>({
 
 export function setCurrentPage(page: number) {
   store.currentPage = page;
+  localStorage.setItem("currentPage", `${page}`);
 }
