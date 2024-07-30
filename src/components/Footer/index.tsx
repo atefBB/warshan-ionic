@@ -1,12 +1,11 @@
 import { IonFooter } from "@ionic/react";
 import { useSnapshot } from "valtio";
 
-import { store } from "../../store"
-
+import { store } from "../../store";
 
 export function Footer() {
-  const { currentPage} = useSnapshot(store);
-  
+  const { currentPage } = useSnapshot(store);
+
   return (
     <IonFooter
       className="ion-no-border"
