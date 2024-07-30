@@ -4,16 +4,11 @@ import {
   getJuzByPageNumber,
   // @ts-ignore
 } from "@kmaslesa/quran-metadata";
-import { useSnapshot } from "valtio";
 import { Link } from "react-router-dom";
-
-import { store } from "../../store";
 
 import "./styles.css";
 
-export function Header() {
-  const { currentPage } = useSnapshot(store);
-
+export function Header({ currentPage }: { currentPage: number }) {
   const chapterName: Array<Record<string, any>> =
     getSuraByPageNumber(currentPage);
   const currentJuz = getJuzByPageNumber(currentPage);
