@@ -63,7 +63,7 @@ export default function CarouselWrapper() {
           <div className="d-grid" key={page.text}>
             <IonRow>
               <IonCol>
-                <Header />
+                <Header currentPage={index + 1} />
               </IonCol>
             </IonRow>
             <IonRow onClick={toggleFullscreen}>
