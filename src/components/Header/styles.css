@@ -2,3 +2,8 @@ ion-toolbar {
   padding-right: 5px !important;
   padding-left: 5px !important;
 }
+
+ion-title {
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}

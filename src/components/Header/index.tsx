@@ -1,11 +1,4 @@
-import {
-  IonHeader,
-  IonToolbar,
-  IonTitle,
-  IonButtons,
-  IonIcon,
-} from "@ionic/react";
-import { searchOutline, bookOutline } from "ionicons/icons";
+import { IonHeader, IonToolbar, IonTitle, IonText } from "@ionic/react";
 import {
   getSuraByPageNumber,
   getJuzByPageNumber,
@@ -28,21 +21,17 @@ export function Header() {
   return (
     <IonHeader style={{ direction: "rtl" }} className="ion-no-border">
       <IonToolbar>
-        <IonButtons slot="start">
-          <Link to="/chapters-index" style={{ color: "black" }}>
-            <IonIcon slot="icon-only" icon={bookOutline} />
+        <IonTitle>
+          <Link
+            to="/chapters-index"
+            className="ion-float-right"
+            style={{ color: "black", textDecoration: "none" }}
+          >
+            {chapterName.map((chapter) => chapter.name.arabic).join("، ")}
           </Link>
-        </IonButtons>
-        <IonButtons slot="end">
-          <Link to="/search" style={{ color: "black" }}>
-            <IonIcon slot="icon-only" icon={searchOutline} />
-          </Link>
-        </IonButtons>
-
-        <IonTitle className="ion-text-center">
-          {chapterName.map((chapter) => chapter.name.arabic).join("، ")}
-          {" / "}
-          <span>الجزء {currentJuz.juzNumber}</span>
+          <IonText className="ion-float-left">
+            الجزء {currentJuz.juzNumber}
+          </IonText>
         </IonTitle>
       </IonToolbar>
     </IonHeader>
