@@ -3,8 +3,11 @@ import { useEffect, useRef, useState } from "react";
 import Slider from "react-slick-pnth";
 import { useSnapshot } from "valtio";
 import { AndroidFullScreen } from "@awesome-cordova-plugins/android-full-screen";
+import { IonCol, IonRow } from "@ionic/react";
 
 import { setCurrentPage, store } from "../../store";
+
+import { Header } from "../Header";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -49,7 +52,7 @@ export default function CarouselWrapper() {
   }, [currentPage]);
 
   return (
-    <div className="slider-container" onClick={toggleFullscreen}>
+    <div className="slider-container">
       <Slider
         ref={(slider: Slider) => {
           sliderRef.current = slider;
@@ -57,11 +60,31 @@ export default function CarouselWrapper() {
         {...settings}
       >
         {pages.map((page, index) => (
-          <img
-            key={page.imageUrl}
-            src={page.imageUrl}
-            alt={`الصفحة ${index}`}
-          />
+          <div className="d-grid" key={page.text}>
+            <IonRow>
+              <IonCol>
+                <Header />
+              </IonCol>
+            </IonRow>
+            <IonRow onClick={toggleFullscreen}>
+              <IonCol>
+                <img
+                  key={page.imageUrl}
+                  src={page.imageUrl}
+                  alt={`الصفحة ${index}`}
+                  style={{ height: "100%" }}
+                />
+              </IonCol>
+            </IonRow>
+            <IonRow>
+              <IonCol
+                style={{ display: "flex" }}
+                className="ion-align-items-center ion-justify-content-center"
+              >
+                {index + 1}
+              </IonCol>
+            </IonRow>
+          </div>
         ))}
       </Slider>
     </div>

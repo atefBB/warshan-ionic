@@ -19,6 +19,18 @@
   height: 100% !important;
 }
 
-.slick-slide > div > img {
-  height: 100% !important;
+.slick-slide > div > .d-grid {
+  grid-template-rows: 0.1fr 2.8fr 0.1fr !important;
+  grid-auto-columns: 1fr !important;
+  gap: 2px !important;
+  display: grid !important;
+  height: 100vh !important;
+}
+
+ion-grid {
+  --ion-grid-padding: 0;
+}
+
+ion-col {
+  --ion-grid-column-padding: 0;
 }
