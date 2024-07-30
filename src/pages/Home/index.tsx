@@ -4,7 +4,7 @@ import { IonPage, IonContent } from "@ionic/react";
 
 import { store } from "../../store";
 
-import { Header, Footer, SpinnerWrapper } from "../../components";
+import { SpinnerWrapper } from "../../components";
 
 import "./grid.css";
 
@@ -22,15 +22,9 @@ export function Home() {
   return (
     <IonPage>
       <IonContent>
-        <main>
-          <div className="container">
-            <Header />
-            <Suspense fallback={<SpinnerWrapper />}>
-              <LazyCarouselWrapper />
-            </Suspense>
-            <Footer />
-          </div>
-        </main>
+        <Suspense fallback={<SpinnerWrapper />}>
+          <LazyCarouselWrapper />
+        </Suspense>
       </IonContent>
     </IonPage>
   );
