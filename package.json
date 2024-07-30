@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "rm -fr dist && tsc && ionic build --prod --base-href=https://atefbb.github.io/warshan-ionic/",
+    "build": "rm -fr dist && ionic build --prod",
     "preview": "vite preview",
     "test.e2e": "cypress run",
     "test.unit": "vitest",
