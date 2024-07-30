@@ -4,8 +4,8 @@ import "./styles.css";
 
 export function SpinnerWrapper() {
   return (
-    <IonGrid className="d-flex">
-      <IonRow className="ion-justify-content-center ion-align-items-center">
+    <IonGrid className="d-flex ion-justify-content-center ion-align-items-center">
+      <IonRow>
         <IonSpinner name="dots" />
       </IonRow>
     </IonGrid>
