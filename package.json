@@ -14,6 +14,7 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist",
     "start:dev": "ionic --version && ionic serve --host=0.0.0.0",
+    "serve": "ionic serve",
     "build:android": "ionic build --prod && ionic cap sync && ionic cap open android"
   },
   "dependencies": {
