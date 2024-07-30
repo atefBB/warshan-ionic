@@ -1,6 +1,8 @@
 import { ArabicServices } from "arabic-services";
 // @ts-ignore
-import quranAyats from "@kmaslesa/quran-ayats";
+import { getAyatByIndex } from "@kmaslesa/quran-ayats";
+// @ts-ignore
+import { getSuraByIndex } from "@kmaslesa/quran-metadata";
 
 import quran from "./quran.json";
 
@@ -16,36 +18,31 @@ export type Result = {
 };
 
 // @todo need improvements
-export function searchVerses(searchQuery: string) {
-  const results: Result[] = [];
+export function searchVerses(searchQuery: string): Result[] {
+  const searchRawResult = searchQueryInQuran(searchQuery);
 
-  for (const surah of quran) {
-    for (const verse of surah.verses) {
-      const verses = quranAyats.getAyatsBySura(surah.id);
+  return searchRawResult.map(({ id, surah, verse, ayah }) => {
+    const { page, juz, hizb } = getAyatByIndex(id)[0];
+    const { index, name } = getSuraByIndex(surah);
 
-      const searchedVerse = verses.filter(
-        (v: any) => v.ayaNumber === verse.id
-      )[0];
+    return {
+      surah: { id: index, name: name.arabic },
+      verse: {
+        number: ayah,
+        text: verse,
+        page: page,
+        hizb: hizb,
+        juz: juz,
+      },
+    };
+  });
+}
 
-      const verseWithoutTashkeel = ArabicServices.removeTashkeel(
-        searchedVerse.aya
-      );
-      const searchQueryTashkeel = ArabicServices.removeTashkeel(searchQuery);
+function searchQueryInQuran(query: string) {
+  return quran.filter(({ verse }) => {
+    const verseWithoutTashkeel = ArabicServices.removeTashkeel(verse);
+    const queryWithoutTashkeel = ArabicServices.removeTashkeel(query);
 
-      if (verseWithoutTashkeel.includes(searchQueryTashkeel)) {
-        results.push({
-          surah,
-          verse: {
-            number: searchedVerse.ayaNumber,
-            text: searchedVerse.aya,
-            page: searchedVerse.page,
-            hizb: searchedVerse.hizb,
-            juz: searchedVerse.juz,
-          },
-        });
-      }
-    }
-  }
-
-  return results;
+    return verseWithoutTashkeel.includes(queryWithoutTashkeel);
+  });
 }
