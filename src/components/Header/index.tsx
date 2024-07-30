@@ -24,9 +24,13 @@ export function Header({ currentPage }: { currentPage: number }) {
           >
             {chapterName.map((chapter) => chapter.name.arabic).join("، ")}
           </Link>
-          <IonText className="ion-float-left">
+          <Link
+            to="/search"
+            className="ion-float-left"
+            style={{ color: "black", textDecoration: "none" }}
+          >
             الجزء {currentJuz.juzNumber}
-          </IonText>
+          </Link>
         </IonTitle>
       </IonToolbar>
     </IonHeader>
