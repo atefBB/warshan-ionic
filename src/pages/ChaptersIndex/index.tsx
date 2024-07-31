@@ -31,9 +31,13 @@ export function ChaptersIndex({ history }: any) {
           <IonTitle>فهرس السور</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent className="ion-padding">
+      <IonContent>
         {chapters.map(({ index, startPage, name }: Record<string, any>) => (
-          <IonItem key={index} onClick={() => handleClickItem(startPage)}>
+          <IonItem
+            lines="full"
+            key={index}
+            onClick={() => handleClickItem(startPage)}
+          >
             <strong>{name.arabic}</strong>
           </IonItem>
         ))}
