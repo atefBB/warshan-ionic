@@ -5,6 +5,7 @@ import { IonPage, IonContent } from "@ionic/react";
 import { store } from "../../store";
 
 import { SpinnerWrapper } from "../../components";
+import { BsCarouselWrapper } from "../../components/BsCarouselWrapper";
 
 import "./grid.css";
 
@@ -23,7 +24,8 @@ export function Home() {
     <IonPage>
       <IonContent>
         <Suspense fallback={<SpinnerWrapper />}>
-          <LazyCarouselWrapper />
+          <BsCarouselWrapper />
+          {/* <LazyCarouselWrapper /> */}
         </Suspense>
       </IonContent>
     </IonPage>

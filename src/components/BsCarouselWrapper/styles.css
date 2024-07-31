@@ -1,0 +1,11 @@
+.carousel-item {
+  height: 100vh !important;
+}
+
+.d-grid {
+  grid-template-rows: 0.1fr 2.8fr 0.1fr !important;
+  grid-auto-columns: 1fr !important;
+  gap: 2px !important;
+  display: grid !important;
+  height: 100vh !important;
+}
