@@ -69,7 +69,6 @@ export default function CarouselWrapper() {
             <IonRow onClick={toggleFullscreen}>
               <IonCol>
                 <img
-                  key={page.imageUrl}
                   src={page.imageUrl}
                   alt={`الصفحة ${index}`}
                   style={{ height: "100%" }}
