@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Route } from "react-router-dom";
 import {
   IonApp,
@@ -6,6 +7,7 @@ import {
   setupIonicReact,
 } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
+import { KeepAwake } from "@capacitor-community/keep-awake";
 
 import { Home, ChaptersIndex, Search } from "./pages";
 
@@ -29,6 +31,14 @@ import "./styles.css";
 setupIonicReact();
 
 export function App() {
+  useEffect(() => {
+    async function keepAwake() {
+      await KeepAwake.keepAwake();
+    }
+
+    keepAwake();
+  }, []);
+
   return (
     <IonApp>
       <IonPage id="app">
