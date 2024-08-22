@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 // @ts-ignore
 import Slider from "react-slick-pnth";
 import { useSnapshot } from "valtio";
@@ -17,8 +17,6 @@ import "./style.css";
 export default function CarouselWrapper() {
   const { currentPage, pages } = useSnapshot(store);
 
-  const [isFullscreen, setIsFullscreen] = useState(false);
-
   let sliderRef = useRef<Slider>();
 
   const settings = {
@@ -34,18 +32,11 @@ export default function CarouselWrapper() {
     },
   };
 
-  function toggleFullscreen() {
-    if (isFullscreen === true) {
-      AndroidFullScreen.showSystemUI()
-        .then(() => setIsFullscreen(false))
-        .catch(console.warn);
-    } else {
-      AndroidFullScreen.isImmersiveModeSupported()
-        .then(() => AndroidFullScreen.immersiveMode())
-        .then(() => setIsFullscreen(true))
-        .catch(console.warn);
-    }
-  }
+  useEffect(() => {
+    AndroidFullScreen.isImmersiveModeSupported()
+      .then(() => AndroidFullScreen.immersiveMode())
+      .catch(console.warn);
+  }, []);
 
   useEffect(() => {
     sliderRef?.current?.slickGoTo(currentPage - 1);
@@ -66,7 +57,7 @@ export default function CarouselWrapper() {
                 <Header currentPage={index + 1} />
               </IonCol>
             </IonRow>
-            <IonRow onClick={toggleFullscreen}>
+            <IonRow>
               <IonCol>
                 <img
                   src={page.imageUrl}
