@@ -20,6 +20,7 @@
   "dependencies": {
     "@awesome-cordova-plugins/android-full-screen": "^6.8.0",
     "@awesome-cordova-plugins/core": "^6.8.0",
+    "@capacitor-community/keep-awake": "^5.0.1",
     "@capacitor/android": "6.1.0",
     "@capacitor/app": "6.0.0",
     "@capacitor/assets": "^3.0.5",
