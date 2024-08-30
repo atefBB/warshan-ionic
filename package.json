@@ -14,7 +14,7 @@
     "predeploy": "yarn build",
     "start:dev": "ionic --version && ionic serve --host=0.0.0.0",
     "serve": "ionic serve",
-    "build:android": "ionic build --prod && npx cap sync && npx cap open android"
+    "build:android": "ionic build --prod && ionic cap sync && npx @capacitor/assets generate --android && ionic cap open android"
   },
   "dependencies": {
     "@awesome-cordova-plugins/android-full-screen": "^6.8.0",
