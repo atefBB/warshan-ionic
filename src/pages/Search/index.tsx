@@ -9,8 +9,10 @@ import {
   IonList,
   IonPage,
   IonToolbar,
+  IonContent,
+  IonItem,
+  IonSearchbar,
 } from "@ionic/react";
-import { IonContent, IonItem, IonSearchbar } from "@ionic/react";
 import { useState } from "react";
 import { useSnapshot } from "valtio";
 
