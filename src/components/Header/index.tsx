@@ -4,7 +4,6 @@ import {
   getJuzByPageNumber,
   // @ts-ignore
 } from "@kmaslesa/quran-metadata";
-import { Link } from "react-router-dom";
 
 import "./styles.css";
 
@@ -17,20 +16,12 @@ export function Header({ currentPage }: { currentPage: number }) {
     <IonHeader style={{ direction: "rtl" }} className="ion-no-border">
       <IonToolbar>
         <IonTitle>
-          <Link
-            to="/chapters-index"
-            className="ion-float-right"
-            style={{ color: "black", textDecoration: "none" }}
-          >
+          <IonText className="ion-float-right">
             {chapterName.map((chapter) => chapter.name.arabic).join("، ")}
-          </Link>
-          <Link
-            to="/search"
-            className="ion-float-left"
-            style={{ color: "black", textDecoration: "none" }}
-          >
+          </IonText>
+          <IonText className="ion-float-left">
             الجزء {currentJuz.juzNumber}
-          </Link>
+          </IonText>
         </IonTitle>
       </IonToolbar>
     </IonHeader>
