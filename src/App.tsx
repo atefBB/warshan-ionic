@@ -8,6 +8,7 @@ import {
 } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import { KeepAwake } from "@capacitor-community/keep-awake";
+import { AndroidFullScreen } from "@awesome-cordova-plugins/android-full-screen";
 
 import { Home, ChaptersIndex, Search } from "./pages";
 
@@ -35,6 +36,10 @@ export function App() {
     async function keepAwake() {
       await KeepAwake.keepAwake();
     }
+
+    AndroidFullScreen.isImmersiveModeSupported()
+      .then(() => AndroidFullScreen.immersiveMode())
+      .catch(console.warn);
 
     keepAwake();
   }, []);

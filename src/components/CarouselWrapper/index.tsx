@@ -2,7 +2,6 @@ import { useEffect, useRef } from "react";
 // @ts-ignore
 import Slider from "react-slick-pnth";
 import { useSnapshot } from "valtio";
-import { AndroidFullScreen } from "@awesome-cordova-plugins/android-full-screen";
 import { IonCol, IonRow } from "@ionic/react";
 
 import { setCurrentPage, store } from "../../store";
@@ -31,12 +30,6 @@ export default function CarouselWrapper() {
       setCurrentPage(currentSlide + 1);
     },
   };
-
-  useEffect(() => {
-    AndroidFullScreen.isImmersiveModeSupported()
-      .then(() => AndroidFullScreen.immersiveMode())
-      .catch(console.warn);
-  }, []);
 
   useEffect(() => {
     sliderRef?.current?.slickGoTo(currentPage - 1);
