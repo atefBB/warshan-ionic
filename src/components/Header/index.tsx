@@ -13,7 +13,7 @@ export function Header({ currentPage }: { currentPage: number }) {
   const currentJuz = getJuzByPageNumber(currentPage);
 
   return (
-    <IonHeader style={{ direction: "rtl" }} className="ion-no-border">
+    <IonHeader className="ion-no-border">
       <IonToolbar>
         <IonTitle>
           <IonText className="ion-float-right">

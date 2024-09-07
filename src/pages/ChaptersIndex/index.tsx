@@ -22,7 +22,7 @@ export function ChaptersIndex({ history }: any) {
   }
 
   return (
-    <IonPage style={{ direction: "rtl" }}>
+    <IonPage>
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="end">

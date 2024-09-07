@@ -48,7 +48,7 @@ export function Search({ history }: any) {
   }
 
   return (
-    <IonPage style={{ direction: "rtl" }}>
+    <IonPage>
       <IonHeader className="ion-no-border">
         <IonToolbar>
           <IonSearchbar

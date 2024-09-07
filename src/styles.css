@@ -166,3 +166,7 @@
 * {
   font-family: "Amiri" !important;
 }
+
+#app {
+  direction: rtl;
+}
