@@ -54,7 +54,7 @@ export default function CarouselWrapper() {
               <IonCol>
                 <img
                   src={page.imageUrl}
-                  alt={`الصفحة ${index}`}
+                  alt={`الصفحة ${index + 1}`}
                   style={{ height: "100%" }}
                 />
               </IonCol>
