@@ -1,16 +1,12 @@
 import { IonHeader, IonToolbar, IonTitle, IonText } from "@ionic/react";
-import {
-  getSuraByPageNumber,
-  getJuzByPageNumber,
-  // @ts-ignore
-} from "@kmaslesa/quran-metadata";
+import { useSnapshot } from "valtio";
+
+import { store } from "../../store";
 
 import "./styles.css";
 
 export function Header({ currentPage }: { currentPage: number }) {
-  const chapterName: Array<Record<string, any>> =
-    getSuraByPageNumber(currentPage);
-  const currentJuz = getJuzByPageNumber(currentPage);
+  const { chapterName, currentJuz } = useSnapshot(store);
 
   return (
     <IonHeader className="ion-no-border">
@@ -19,9 +15,7 @@ export function Header({ currentPage }: { currentPage: number }) {
           <IonText className="ion-float-right">
             {chapterName.map((chapter) => chapter.name.arabic).join("، ")}
           </IonText>
-          <IonText className="ion-float-left">
-            الجزء {currentJuz.juzNumber}
-          </IonText>
+          <IonText className="ion-float-left">الجزء {currentJuz}</IonText>
         </IonTitle>
       </IonToolbar>
     </IonHeader>
