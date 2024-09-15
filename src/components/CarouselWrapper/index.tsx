@@ -25,9 +25,11 @@ export default function CarouselWrapper() {
     slidesToScroll: 1,
     rtl: true,
     useCSS: false,
+    speed: 2000,
+    adaptiveHeight: true,
     lazyLoad: "progressive",
-    afterChange: function (currentSlide: number) {
-      setCurrentPage(currentSlide + 1);
+    onSwipe: function (swipeSide: "left" | "right") {
+      setCurrentPage(swipeSide === "right" ? currentPage - 1 : currentPage + 1);
     },
   };
 
